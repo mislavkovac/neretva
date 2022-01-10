@@ -48,7 +48,7 @@ const payment = () => {
 							<ul className="list-disc pl-8">
 								<li>The date the item or service was provided;</li>
 								<li>
-									The recipient’s address (email/IP, etc.) - where applicable.
+									The recipient's address (email/IP, etc.) - where applicable.
 								</li>
 							</ul>
 						</p>
@@ -141,26 +141,34 @@ const payment = () => {
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
 							What's Covered?
 						</div>
-						<p className="mx-10">
-							Purchase of most goods that can be posted and which do not violate
-							PayPal policies. Here are a few examples of situations where an
-							item doesn’t match the seller’s description: You bought a book and
-							got a DVD, you bought a new item but got something that was used,
-							you bought 3 items but only got 2, the item was damaged during
-							delivery, the item is missing major parts (that the seller didn’t
-							disclose), or you purchased an authentic brand but got a fake
-							instead.
-						</p>
+						<p
+							className="mx-10"
+							dangerouslySetInnerHTML={{
+								__html: `Purchase of most goods that can be posted and which do not violate
+								PayPal policies. Here are a few examples of situations where an
+								item doesn’t match the seller’s description: You bought a book and
+								got a DVD, you bought a new item but got something that was used,
+								you bought 3 items but only got 2, the item was damaged during
+								delivery, the item is missing major parts (that the seller didn’t
+								disclose), or you purchased an authentic brand but got a fake
+								instead.`,
+							}}
+						/>
+
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
 							What's not Covered?
 						</div>
-						<p className="mx-10">
-							Items like real estate, motorized vehicles (of any kind), custom
-							made items, industrial machinery (for manufacturing), prepaid or
-							gift cards, anything you buy in person, or items that violate
-							PayPal's policies. You must open a dispute within 180 days or you
-							will not be covered.
-						</p>
+						<p
+							className="mx-10"
+							dangerouslySetInnerHTML={{
+								__html: `Items like real estate, motorized vehicles (of any kind), custom
+								made items, industrial machinery (for manufacturing), prepaid or
+								gift cards, anything you buy in person, or items that violate
+								PayPal's policies. You must open a dispute within 180 days or you
+								will not be covered.`,
+							}}
+						/>
+
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">Our tips</div>
 						<p className="mx-10">
 							<ul className="list-disc pl-8">
@@ -185,12 +193,15 @@ const payment = () => {
 						</p>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">Refunds</div>
 						<p className="mx-10">
-							<p className="mx-10">
-								If an item doesn’t arrive or doesn't match the description, and
+							<p
+								className="mx-10"
+								dangerouslySetInnerHTML={{
+									__html: `If an item doesn’t arrive or doesn't match the description, and
 								your payment is eligible, we’ll reimburse the full cost of
 								eligible purchases paid, including shipping costs. Limitations
-								apply.
-							</p>
+								apply.`,
+								}}
+							/>
 						</p>
 					</div>
 				</div>
