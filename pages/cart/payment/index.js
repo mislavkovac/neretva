@@ -127,14 +127,17 @@ const payment = () => {
 						<div className="mt-10 mb-4 text-center text-3xl">
 							Buyer Protection
 						</div>
-						<p className="mx-10">
-							If an eligible item that you’ve bought online doesn’t arrive, or
+						<p
+							className="mx-10"
+							dangerouslySetInnerHTML={{
+								__html: `If an eligible item that you’ve bought online doesn’t arrive, or
 							doesn’t match the seller’s description, PayPal's Buyer Protection
 							may reimburse you for the full amount of the item plus postage.
 							Buyer Protection may cover your eligible online purchases, on eBay
 							or on any other website, when you use PayPal. It also covers you
-							when you make a payment on PayPal's website. Conditions apply.
-						</p>
+							when you make a payment on PayPal's website. Conditions apply.`,
+							}}
+						/>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
 							What's Covered?
 						</div>
