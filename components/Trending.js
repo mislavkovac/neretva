@@ -16,7 +16,7 @@ const Trending = () => {
 						Samsung
 					</div>
 					<div className="flex-1 text-center font-sans text-base font-normal">
-						43" Q60A QLED 4K Smart TV
+						43&quot; Q60A QLED 4K Smart TV
 					</div>
 					<div className="flex-1 justify-center self-center">
 						<img

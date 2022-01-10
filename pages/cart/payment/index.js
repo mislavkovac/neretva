@@ -48,7 +48,8 @@ const payment = () => {
 							<ul className="list-disc pl-8">
 								<li>The date the item or service was provided;</li>
 								<li>
-									The recipient's address (email/IP, etc.) - where applicable.
+									The recipient&apos;s address (email/IP, etc.) - where
+									applicable.
 								</li>
 							</ul>
 						</p>
@@ -139,7 +140,7 @@ const payment = () => {
 							}}
 						/>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
-							What's Covered?
+							What&apos;s Covered?
 						</div>
 						<p
 							className="mx-10"
@@ -156,7 +157,7 @@ const payment = () => {
 						/>
 
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
-							What's not Covered?
+							What&apos;s not Covered?
 						</div>
 						<p
 							className="mx-10"
