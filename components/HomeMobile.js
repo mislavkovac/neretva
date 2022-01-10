@@ -4,14 +4,16 @@ import data from '../public/data.json';
 import NewProduct from './NewProduct';
 import Offer from './Offer';
 import Slide from '@mui/material/Slide';
+import NewProductMobile from './NewProductMobile';
+import OfferMobile from './OfferMobile';
 
-const Home = ({ offerTag }) => {
+const HomeMobile = ({ offerTag }) => {
 	let specOffer = [];
 	let newProduct = [];
 	for (const item of data) {
 		if (item.offer === '1') {
 			specOffer.push(
-				<Offer
+				<OfferMobile
 					id={item.id}
 					image={item.image}
 					price={item.price}
@@ -24,7 +26,7 @@ const Home = ({ offerTag }) => {
 		}
 		if (item.new === '1') {
 			newProduct.push(
-				<NewProduct
+				<NewProductMobile
 					id={item.id}
 					image={item.image}
 					price={item.price}
@@ -38,7 +40,7 @@ const Home = ({ offerTag }) => {
 	}
 
 	return (
-		<div className="hidden sm:flex sm:flex-row sm:justify-center sm:flex-1">
+		<div className="justify-center flex-1">
 			<Slide
 				direction="right"
 				timeout={500}
@@ -46,7 +48,7 @@ const Home = ({ offerTag }) => {
 				mountOnEnter
 				unmountOnExit
 			>
-				<div className="flex">{specOffer}</div>
+				<div className="flex my-[1rem]">{specOffer}</div>
 			</Slide>
 			<Slide
 				direction="left"
@@ -55,7 +57,7 @@ const Home = ({ offerTag }) => {
 				mountOnEnter
 				unmountOnExit
 			>
-				<div className="grid grid-row-2 justify-between gap-[1rem]">
+				<div className="justify-between grid grid-rows-2 gap-[1rem]">
 					{newProduct}
 				</div>
 			</Slide>
@@ -63,4 +65,4 @@ const Home = ({ offerTag }) => {
 	);
 };
 
-export default Home;
+export default HomeMobile;

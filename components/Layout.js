@@ -4,25 +4,35 @@ import Cart from './Cart';
 import Search from './Search';
 import Navbar from './Navbar';
 import Home from './Home';
-import Trending from './Trending';
+import Homepage from './Homepage';
 import Other from './Other';
 import Footer from './Footer';
+import Header from './Header';
+import HeaderMobile from './HeaderMobile';
+import HomeMobile from './HomeMobile';
+import FooterMobile from './FooterMobile';
 
 const Layout = ({ categories }) => {
 	return (
 		<div>
-			<div className="grid grid-cols-3 justify-between place-items-stretch items-center w-[100%] h-[5em] bg-[#6c7a89]">
-				<Link href="/" className="flex no-underline text-center">
-					<p className={stylesLayout.headerText}>Neretva.com</p>
-				</Link>
-				<Search className="w-[100%]" />
-				<Cart />
+			<div className="hidden sm:block">
+				<Header />
 			</div>
-			<Navbar />
-			<Home />
-			<Trending />
-			<Other />
-			<Footer />
+			<div className="block sm:hidden">
+				<HeaderMobile />
+			</div>
+			<div className="hidden sm:block">
+				<Home />
+			</div>
+			<div className="block sm:hidden">
+				<HomeMobile />
+			</div>
+			<div className="hidden sm:block">
+				<Footer />
+			</div>
+			<div className="block sm:hidden">
+				<FooterMobile />
+			</div>
 		</div>
 	);
 };

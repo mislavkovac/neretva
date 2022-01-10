@@ -7,6 +7,8 @@
         "image": ["image35.png"],
         "id": "0",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "TVs & Monitors"
     },
     {
@@ -17,6 +19,8 @@
         "image": ["image36.1.png","image36.2.png","image36.3.png","image36.4.png"],
         "id": "1",
         "color": ["Olive", "Graphite", "Lavander", "White"],
+        "offer": "0",
+        "new": "0",
         "tag": "Mobile"
     },
     {
@@ -27,6 +31,8 @@
         "image": ["image37.png"],
         "id": "2",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Laptop"
     },
     {
@@ -37,6 +43,8 @@
         "image": ["image38.png", "image38.1.png"],
         "color": ["Space Gray", "Silver"],
         "id": "3",
+        "offer": "0",
+        "new": "0",
         "tag": "Mobile",
         "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborinisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiatnulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -44,22 +52,26 @@
         "name": "Apple",
         "desc": "Apple Watch S6 GPS 40mm",
         "prevPrice": "3.439,00HRK",
-        "price": "2.899,00HRK",
+        "price": "2.751,00HRK",
         "image": ["image49.png"],
         "id": "4",
         "link": "https://www.links.hr/hr/pametni-sat-apple-watch-s6-gps-40mm-product-red-aluminium-case-with-product-red-sport-band-regular-770701651",
         "color": [],
+        "offer": "1",
+        "new": "0",
         "tag": "Mobile"
     },
     {
         "name": "Lenovo",
         "desc": "ThinkVision T24i-2L 23.8\"",
         "prevPrice": "5.600,00 HRK",
-        "price": "3.000,00 HRK",
+        "price": "4.040,00 HRK",
         "image": ["image50.png"],
         "id": "5",
         "link": "https://www.links.hr/hr/monitor-23-8-lenovo-thinkvision-t24i-2l-ips-6ms-250cd-m2-1000-1-crni-100300988",
         "color": [],
+        "offer": "0",
+        "new": "1",
         "tag": "TVs & Monitors"
     },
     {
@@ -71,6 +83,8 @@
         "id": "6",
         "link": "https://www.links.hr/hr/smartphone-apple-iphone-13-pro-6-1-256gb-crni-040100664",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Mobile"
     },
     {
@@ -82,6 +96,8 @@
         "id": "7",
         "link": "https://www.links.hr/hr/prijenosno-racunalo-lenovo-thinkpad-x1-fold-gen-1-20rl000gsc-core-i5-l16g7-8gb-512gb-ssd-hd-graphics-13-3-oled-touch-qxga-windows-10-pro-crno-015400496",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Laptop"
     },
     {
@@ -93,17 +109,21 @@
         "id": "8",
         "link": "https://www.links.hr/hr/racunalo-aio-lenovo-ideacentre-3-f0g0007tsc-core-i3-1115g4-8gb-512gb-ssd-dvdrw-hd-graphics-23-8-ips-fhd-windows-10-tipkovnica-mis-bijelo-035300286",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "PC"
     },
     {
         "name": "Apple",
         "desc": "iMac 24\" Retina 4.5K Apple M1 8GB 512GB SSD",
         "prevPrice": "16.199,00 HRK",
-        "price": "15.389,00 HRK",
+        "price": "14.580,00 HRK",
         "image": ["image54.png"],
         "id": "9",
         "link": "https://www.links.hr/hr/racunalo-apple-imac-24-retina-4-5k-apple-m1-8gb-512gb-ssd-apple-graphics-tipk-mis-macos-zeleno-035300267",
         "color": [],
+        "offer": "0",
+        "new": "1",
         "tag": "PC"
     },
     {
@@ -115,6 +135,8 @@
         "id": "10",
         "link": "https://www.links.hr/hr/kucno-kino-bose-lifestyle-600-hdmi-usb-bijelo-750304015",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Audio"
     },
     {
@@ -126,6 +148,8 @@
         "id": "11",
         "link": "https://www.links.hr/hr/gramofon-audio-technica-at-lpw40wn-mdf-ploca-orah-750310030",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Audio"
     },
     {
@@ -137,6 +161,8 @@
         "id": "12",
         "link": "https://www.elipso.hr/bijela-tehnika/perilice-posuda/BOSCH-SMS25AI05E/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Dishwasher"
     },
     {
@@ -148,6 +174,8 @@
         "id": "13",
         "link": "https://www.elipso.hr/bijela-tehnika/perilice-posuda/WHIRLPOOL-WFC-3C42-PX/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Dishwasher"
     },
     {
@@ -159,6 +187,8 @@
         "id": "14",
         "link": "https://www.elipso.hr/bijela-tehnika/perilice-rublja/SAMSUNG-WW90T754DBX-S7/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Washing machine"
     },
     {
@@ -170,6 +200,8 @@
         "id": "15",
         "link": "https://www.elipso.hr/bijela-tehnika/perilice-rublja/BOSCH-WAN28160BY/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Washing machine"
     },
     {
@@ -181,6 +213,8 @@
         "id": "16",
         "link": "https://www.elipso.hr/bijela-tehnika/hladnjaci/HISENSE-RS694N4TIE/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Refrigerator"
     },
     {
@@ -192,6 +226,8 @@
         "id": "17",
         "link": "https://www.elipso.hr/bijela-tehnika/hladnjaci/HISENSE-RS694N4TIE/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Refrigerator"
     },
     {
@@ -203,6 +239,8 @@
         "id": "18",
         "link": "https://www.elipso.hr/bijela-tehnika/hladnjaci/HISENSE-RS694N4TIE/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Socket"
     },
     {
@@ -214,6 +252,8 @@
         "id": "19",
         "link": "https://www.elipso.hr/bijela-tehnika/hladnjaci/HISENSE-RS694N4TIE/",
         "color": [],
+        "offer": "0",
+        "new": "0",
         "tag": "Light_bulbs"
     }
 ]

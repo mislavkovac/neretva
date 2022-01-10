@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const Footer = () => {
 	return (
-		<div className="bg-[#6C7A89] flex flex-row place-content-center w-[100%] h-[25%] py-[2em] mt-[2em]">
+		<div className="hidden sm:bg-[#6C7A89] sm:flex sm:flex-row sm:place-content-center sm:w-[100%] sm:h-[25%] sm:py-[2em] sm:mt-[2em]">
 			<div className="ml-[4em] mr-[4em]">
 				<div className="flex-1 mx-[8rem] font-sans text-2xl font-normal text-[#FAFAFA]">
 					Address:
