@@ -27,6 +27,7 @@ const FooterMobile = () => {
 						background: '#FAFAFA',
 						fontWeight: '900',
 						marginBottom: '0.5rem',
+						width: '8rem',
 					}}
 					label="Address"
 				/>
@@ -42,6 +43,7 @@ const FooterMobile = () => {
 						color: '#C96567',
 						background: '#FAFAFA',
 						fontWeight: '900',
+						width: '8rem',
 					}}
 					label="Contact"
 				/>
@@ -58,6 +60,7 @@ const FooterMobile = () => {
 						background: '#FAFAFA',
 						fontWeight: '900',
 						margin: '0.5rem 0',
+						width: '8rem',
 					}}
 					label="Payment"
 				/>

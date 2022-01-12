@@ -21,7 +21,7 @@ export default function HeaderMobile() {
 		setShowOptions(!showOptions);
 	}
 	return (
-		<div className="flex flex-col h-[10rem] mb-[0.5rem] bg-gradient-to-b from-[#314455] to-[#97aabd]">
+		<div className="flex flex-col h-auto pb-[1rem] mb-[0.5rem] bg-gradient-to-b from-[#314455] to-[#97aabd]">
 			<Slide direction="top" timeout={700} in={showNavbar}>
 				<div
 					style={{
@@ -59,18 +59,27 @@ export default function HeaderMobile() {
 				<Fade in={showNavbar} timeout={700}>
 					<button
 						onClick={navbar}
-						className="bg-[#C96567] rounded-full z-30 absolute flex w-[3.5rem] h-[3.5rem] justify-center items-center"
+						className="bg-[#C96567] rounded-full z-30 absolute flex flex-1 w-[3.5rem] h-[3.5rem] justify-center items-center"
 					>
 						<CloseIcon
-							style={{ color: 'white', width: '3rem', height: '3rem' }}
+							style={{
+								color: 'white',
+								width: '3rem',
+								height: '3rem',
+								display: 'flex',
+								flex: '1',
+							}}
 						/>
 					</button>
 				</Fade>
-				<img
-					className="max-w-[60%] mx-[1rem] flex-1"
+				{/* <img
+					className="max-w-[50%] mx-[1rem] flex-1"
 					src="/images/logo.png"
 					alt="logo"
-				/>
+				/> */}
+				<div className="text-4xl break-all text-center font-bold text-[#fafafa]">
+					Neretva.com
+				</div>
 				<Fade in={!showOptions} timeout={700}>
 					<button
 						style={{

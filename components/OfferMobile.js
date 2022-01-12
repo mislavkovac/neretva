@@ -44,26 +44,28 @@ const OfferMobile = ({ id, image, price, prevPrice, name, desc, tag }) => {
 			<div className="mt-[1.5rem] my-[1rem]">
 				<Stack direction="column" spacing={1}>
 					<Chip
-						icon={<LocalOfferIcon style={{ color: '#C96567' }} />}
+						icon={<LocalOfferIcon style={{ color: '#FAFAFA' }} />}
 						label="Best Offer"
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#644e5b',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 					/>
 					<Chip
 						icon={
 							<AccessTimeIcon
 								style={{
-									color: '#C96567',
+									color: '#FAFAFA',
 								}}
 							/>
 						}
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#9e5a63',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 						label="HurryUp!!"
 					/>
@@ -71,14 +73,15 @@ const OfferMobile = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						icon={
 							<PercentIcon
 								style={{
-									color: '#C96567',
+									color: '#FAFAFA',
 								}}
 							/>
 						}
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#97aabd',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 						label="20"
 					/>

@@ -57,7 +57,7 @@ const HomeMobile = ({ offerTag }) => {
 				mountOnEnter
 				unmountOnExit
 			>
-				<div className="justify-between grid grid-rows-2 gap-[1rem]">
+				<div className="justify-between flex flex-col gap-[1rem]">
 					{newProduct}
 				</div>
 			</Slide>

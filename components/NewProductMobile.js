@@ -42,26 +42,28 @@ const NewProductMobile = ({ id, image, price, prevPrice, name, desc, tag }) => {
 					}}
 				>
 					<Chip
-						icon={<NewReleasesIcon style={{ color: '#C96567' }} />}
+						icon={<NewReleasesIcon style={{ color: '#FAFAFA' }} />}
 						label="New"
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#644e5b',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 					/>
 					<Chip
 						icon={
 							<PercentIcon
 								style={{
-									color: '#C96567',
+									color: '#FAFAFA',
 								}}
 							/>
 						}
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#9e5a63',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 						label="10"
 					/>
@@ -69,14 +71,15 @@ const NewProductMobile = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						icon={
 							<Inventory2Icon
 								style={{
-									color: '#C96567',
+									color: '#FAFAFA',
 								}}
 							/>
 						}
 						style={{
-							color: '#C96567',
-							background: '#314455',
+							color: '#FAFAFA',
+							background: '#97aabd',
 							fontWeight: '900',
+							width: '9rem',
 						}}
 						label="Limited QTY"
 					/>

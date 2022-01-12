@@ -35,54 +35,52 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 					</div>
 				</div>
 			</div>
-			<div className="flex-1">
-				<Stack
-					direction="row"
-					spacing={1}
+			<div className="md:flex md:flex-row flex-col">
+				<Chip
+					icon={<NewReleasesIcon style={{ color: '#FAFAFA' }} />}
+					label="New"
 					style={{
-						margin: '1rem 0',
+						color: '#FAFAFA',
+						background: '#644e5b',
+						fontWeight: '900',
+						width: '5rem',
+						margin: '0.3rem 0.3rem',
 					}}
-				>
-					<Chip
-						icon={<NewReleasesIcon style={{ color: '#C96567' }} />}
-						label="New"
-						style={{
-							color: '#C96567',
-							background: '#314455',
-							fontWeight: '900',
-						}}
-					/>
-					<Chip
-						icon={
-							<PercentIcon
-								style={{
-									color: '#C96567',
-								}}
-							/>
-						}
-						style={{
-							color: '#C96567',
-							background: '#314455',
-							fontWeight: '900',
-						}}
-						label="10"
-					/>
-					<Chip
-						icon={
-							<Inventory2Icon
-								style={{
-									color: '#C96567',
-								}}
-							/>
-						}
-						style={{
-							color: '#C96567',
-							background: '#314455',
-							fontWeight: '900',
-						}}
-						label="Limited QTY"
-					/>
-				</Stack>
+				/>
+				<Chip
+					icon={
+						<PercentIcon
+							style={{
+								color: '#FAFAFA',
+							}}
+						/>
+					}
+					style={{
+						color: '#FAFAFA',
+						background: '#9e5a63',
+						fontWeight: '900',
+						width: '4rem',
+						margin: '0.3rem 0.3rem',
+					}}
+					label="10"
+				/>
+				<Chip
+					icon={
+						<Inventory2Icon
+							style={{
+								color: '#FAFAFA',
+							}}
+						/>
+					}
+					style={{
+						color: '#FAFAFA',
+						background: '#97aabd',
+						fontWeight: '900',
+						width: '8rem',
+						margin: '0.3rem 0.3rem',
+					}}
+					label="Limited QTY"
+				/>
 			</div>
 		</div>
 	);
