@@ -21,7 +21,7 @@ const Trending = () => {
 					<div className="flex-1 justify-center self-center">
 						<img
 							src="/images/image35.png"
-							alt="Cart" //change name
+							alt="Cart" 
 							className="max-h-[25em] p-[0.5em]"
 						/>
 					</div>
