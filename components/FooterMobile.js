@@ -6,7 +6,7 @@ import PaymentIcon from '@mui/icons-material/Payment';
 
 const FooterMobile = () => {
 	return (
-		<div className="bg-[#314455] w-[100%] h-[5%] mt-[1rem] flex flex-col justify-center items-center">
+		<div className="bg-[#314455] w-[100%] mt-[1rem] flex flex-col justify-center items-center">
 			<div className="mt-[0.5rem] font-sans text-base font-normal text-center text-[#FAFAFA]">
 				Need help?
 			</div>

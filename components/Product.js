@@ -9,6 +9,7 @@ const Product = ({ image, price, prevPrice, name, desc, tag, color }) => {
 	let colors = [];
 	let images = [];
 	let i = 0;
+	let show = true;
 
 	for (i = 0; i < color.length; i++) {
 		images.push(<Images image={image[i]} />);
@@ -18,22 +19,26 @@ const Product = ({ image, price, prevPrice, name, desc, tag, color }) => {
 		colors.push(<Colors image={image[i]} color={color[i]} />);
 	}
 
+	if (colors.length === 0) {
+		show = false;
+	}
+
 	return (
 		<div>
-			<div className="flex flex-row justify-center">
+			<div className="flex flex-col lg:flex-row justify-center">
 				<div className="flex flex-row m-[1em] items-center content-between justify-between rounded overflow-hidden shadow-lg bg-[#FAFAFA]">
 					<img
 						src={`/images/${image[0]}`}
 						alt="Cart" //change name
-						className="max-w-[800px] max-h-[800px] p-[1em]"
+						className="max-w-[800px] max-h-[800px] min-h-[600px] p-[1em]"
 					/>
 					<div className="justify-center">{images}</div>
 				</div>
 				<div className="flex flex-col flex-1 self-center">
-					<div className="font-sans text-4xl pt-[1em] ml-[3rem] text-[#354649] font-normal">
+					<div className="font-sans text-5xl pt-[1em] ml-[3rem] text-[#354649] font-bold">
 						{name}
 					</div>
-					<div className="font-sans text-3xl pt-[0.2em] ml-[3rem] text-[#354649] font-normal">
+					<div className="font-sans text-3xl pt-[0.2em] ml-[3rem] text-[#C96567] font-bold">
 						{desc}
 					</div>
 					<div className="ml-[3rem] mt-[1em]">
@@ -61,11 +66,15 @@ const Product = ({ image, price, prevPrice, name, desc, tag, color }) => {
 						</label>
 					</div>
 					<div className="flex flex-row">
-						<div className="ml-[3rem] pt-[2em]">Color:</div>
+						{colors.length !== 0 ? (
+							<div className="ml-[3rem] pt-[2em]">Color:</div>
+						) : (
+							''
+						)}
 						{colors}
 					</div>
 					<div className="ml-[3rem]">
-						<button className="bg-[#6C7A89] w-[8em] px-[0.5em] mt-[1em] shadow-lg rounded-md transition duration-700 ease-in-out hover:scale-105 py-[0.2em] text-2xl text-[#f0f0f0]">
+						<button className="bg-[#314455] w-[8em] px-[0.5em] mt-[1em] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] py-[0.2em] text-2xl text-[#ffffff]">
 							Add to Cart
 						</button>
 					</div>

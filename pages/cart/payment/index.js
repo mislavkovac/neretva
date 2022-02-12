@@ -2,15 +2,15 @@ import React from 'react';
 
 const payment = () => {
 	return (
-		<div className="bg-[#6C7A89] text-[#354649] pb-[10em] px-1 pd:px-[5em] lg:px-[10em] xl:px-[20em] 2xl:px-[40em]]">
+		<div className="bg-[#314455] text-[#314455] pb-[10em] px-1 pd:px-[5em] lg:px-[10em] xl:px-[20em] 2xl:px-[40em]]">
 			<div className="pt-[3rem]">
-				<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] border-[0.5px] border-[#354649]">
-					<div className="text-center items-center text-5xl py-5 ">
+				<div className="bg-[#E0E7E9] rounded-md shadow-lg mb-[0.5em] mr-[0.5em] border-[0.5px] border-[#314455]">
+					<div className="text-center items-center text-5xl py-5">
 						Safe payment information
 					</div>
 				</div>
 				<div className="flex flex-row pt-5">
-					<div className="flex-1 bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] border-[0.5px] border-[#354649]">
+					<div className="flex-1 bg-[#E0E7E9] shadow-lg mb-[0.5em] rounded-md mr-[0.5em] border-[0.5px] border-[#314455]">
 						<div className="mt-5 mb-4 text-center text-3xl">
 							Seller Protection
 						</div>
@@ -123,7 +123,7 @@ const payment = () => {
 							</p>
 						</p>
 					</div>
-					<div className="flex-1 bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] border-[0.5px] border-[#354649]">
+					<div className="flex-1 bg-[#E0E7E9] shadow-lg mb-[0.5em] rounded-md mr-[0.5em] border-[0.5px] border-[#314455]">
 						<div className="mt-10 mb-4 text-center text-3xl">
 							Buyer Protection
 						</div>

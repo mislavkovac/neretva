@@ -28,20 +28,20 @@ export default function Toggle() {
 		<div className="flex flex-row justify-center break-all content-center">
 			<div className="mr-[0.5em] max-w-[500px] flex-[1_1_100%]">
 				<div className="bg-[#E0E7E9] shadow-lg my-[0.6em] w-[100%]">
-					<div className="text-center font-sans text-3xl font-normal text-[#354649] border-[0.5px] border-[#354649]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455] border-[0.5px] border-[#314455]">
 						<div className="my-[0.2em]">General information</div>
 						{/*The bottom code should toggle on and off when the button is pressed*/}
 					</div>
 					<div
 						style={{
 							display: showMe ? 'block' : 'none',
-							borderLeft: '0.5px solid #354649',
-							borderBottom: '0.5px solid #354649',
-							borderRight: '0.5px solid #354649',
+							borderLeft: '0.5px solid #314455',
+							borderBottom: '0.5px solid #314455',
+							borderRight: '0.5px solid #314455',
 						}}
 					>
 						<div className="px-[3em]">
-							<div className="font-sans text-xl text-[#354649] pt-3 font-normal">
+							<div className="font-sans text-xl text-[#314455] pt-3 font-normal">
 								First name:
 							</div>
 							<div>
@@ -53,7 +53,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg rounded-md text-xl block bg-white w-full border border-gray-300 py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="First name"
 										type="text"
 										name="search"
@@ -62,7 +62,7 @@ export default function Toggle() {
 							</div>
 						</div>
 						<div className="px-[3em]">
-							<div className="font-sans text-xl pt-3 text-[#354649] font-normal">
+							<div className="font-sans text-xl pt-3 text-[#314455] font-normal">
 								Last name:
 							</div>
 							<div>
@@ -74,7 +74,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Last name"
 										type="text"
 										name="search"
@@ -83,7 +83,7 @@ export default function Toggle() {
 							</div>
 						</div>
 						<div className="px-[3em]">
-							<div className="font-sans text-xl pt-3 text-[#354649] font-normal">
+							<div className="font-sans text-xl pt-3 text-[#314455] font-normal">
 								Phone number:
 							</div>
 							<div>
@@ -95,7 +95,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="e.g. +385123456789"
 										type="text"
 										name="search"
@@ -106,7 +106,7 @@ export default function Toggle() {
 						<div className="flex text-center justify-around w-[100%]">
 							<button
 								onClick={shippInfo}
-								className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+								className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 							>
 								Next
 							</button>
@@ -114,24 +114,24 @@ export default function Toggle() {
 					</div>
 				</div>
 				<div className="bg-[#E0E7E9] shadow-lg my-[0.6em]  ">
-					<div className="text-center font-sans text-3xl font-normal text-[#354649] border-[0.5px] border-[#354649]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455] border-[0.5px] border-[#314455]">
 						<div className="my-[0.2em]">Shipping information</div>
 						{/*The bottom code should toggle on and off when the button is pressed*/}
 					</div>
 					<div
 						style={{
 							display: showMe1 ? 'block' : 'none',
-							borderLeft: '0.5px solid #354649',
-							borderBottom: '0.5px solid #354649',
-							borderRight: '0.5px solid #354649',
+							borderLeft: '0.5px solid #314455',
+							borderBottom: '0.5px solid #314455',
+							borderRight: '0.5px solid #314455',
 						}}
 					>
 						<div className="px-[3em]">
 							<div className="flex flex-row">
-								<div className="flex-1 font-sans text-xl text-[#354649] pt-3 font-normal left-0">
+								<div className="flex-1 font-sans text-xl text-[#314455] pt-3 font-normal left-0">
 									Postal code:
 								</div>
-								<div className="flex-1 font-sans text-xl ml-[4rem] text-[#354649] pt-3 font-normal left-0">
+								<div className="flex-1 font-sans text-xl ml-[4rem] text-[#314455] pt-3 font-normal left-0">
 									Country:
 								</div>
 							</div>
@@ -144,7 +144,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Postal code"
 										type="text"
 										name="search"
@@ -158,7 +158,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Country"
 										type="text"
 										name="search"
@@ -168,10 +168,10 @@ export default function Toggle() {
 						</div>
 						<div className="px-[3em]">
 							<div className="flex flex-row">
-								<div className="flex-1 font-sans text-xl text-[#354649] pt-3 font-normal left-0">
+								<div className="flex-1 font-sans text-xl text-[#314455] pt-3 font-normal left-0">
 									City:
 								</div>
-								<div className="flex-1 font-sans text-xl ml-[4rem] text-[#354649] pt-3 font-normal left-0">
+								<div className="flex-1 font-sans text-xl ml-[4rem] text-[#314455] pt-3 font-normal left-0">
 									Province:
 								</div>
 							</div>
@@ -184,7 +184,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="City"
 										type="text"
 										name="search"
@@ -198,7 +198,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Province"
 										type="text"
 										name="search"
@@ -207,7 +207,7 @@ export default function Toggle() {
 							</div>
 						</div>
 						<div className="px-[3em]">
-							<div className="font-sans text-xl pt-3 text-[#354649] font-normal">
+							<div className="font-sans text-xl pt-3 text-[#314455] font-normal">
 								Home address (line 1):
 							</div>
 							<div>
@@ -219,7 +219,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Address"
 										type="text"
 										name="search"
@@ -228,7 +228,7 @@ export default function Toggle() {
 							</div>
 						</div>
 						<div className="px-[3em]">
-							<div className="font-sans text-xl pt-3 text-[#354649] font-normal">
+							<div className="font-sans text-xl pt-3 text-[#314455] font-normal">
 								Home address (line 2):
 							</div>
 							<div>
@@ -240,7 +240,7 @@ export default function Toggle() {
 										></svg>
 									</span>
 									<input
-										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-sm py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+										className="placeholder:text-[#6C7A89] placeholder:text-lg text-xl block bg-white w-full border border-gray-300 rounded-md py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
 										placeholder="Apt/Suite/..."
 										type="text"
 										name="search"
@@ -251,14 +251,14 @@ export default function Toggle() {
 						<div className="flex text-center justify-around w-[100%]">
 							<button
 								onClick={shippInfo}
-								className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+								className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 							>
 								Previous
 							</button>
 
 							<button
 								onClick={shippMtd}
-								className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+								className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 							>
 								Next
 							</button>
@@ -266,20 +266,20 @@ export default function Toggle() {
 					</div>
 				</div>
 				<div className="bg-[#E0E7E9] shadow-lg flex-1 my-[0.6em] ">
-					<div className="text-center font-sans text-3xl font-normal text-[#354649] border-[0.5px] border-[#354649]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455] border-[0.5px] border-[#314455]">
 						<div className="my-[0.2em]">Shipping method</div>
 						{/*The bottom code should toggle on and off when the button is pressed*/}
 					</div>
 					<div
 						style={{
 							display: showMe2 ? 'block' : 'none',
-							borderLeft: '0.5px solid #354649',
-							borderBottom: '0.5px solid #354649',
-							borderRight: '0.5px solid #354649',
+							borderLeft: '0.5px solid #314455',
+							borderBottom: '0.5px solid #314455',
+							borderRight: '0.5px solid #314455',
 						}}
 					>
 						<div>
-							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#354649]">
+							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#314455]">
 								<img
 									src="/images/image66.png"
 									alt="Cart" //change name
@@ -287,17 +287,17 @@ export default function Toggle() {
 								/>
 								<div>
 									<input
-										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 										type="radio"
 										name="flexRadioDefault"
 										id="flexRadioDefault1"
 									/>
 									<div className="flex flex-col">
 										<div>
-											<label className="form-check-label text-[#354649] font-bold">
+											<label className="form-check-label text-[#314455] font-bold">
 												DPD Deliveries
 											</label>
-											<label className="form-check-label ml-10 text-[#354649] font-bold">
+											<label className="form-check-label ml-10 text-[#314455] font-bold">
 												20 HRK
 											</label>
 										</div>
@@ -306,7 +306,7 @@ export default function Toggle() {
 									</div>
 								</div>
 							</div>
-							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#354649]">
+							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#314455]">
 								<img
 									src="/images/image67.png"
 									alt="Cart" //change name
@@ -314,17 +314,17 @@ export default function Toggle() {
 								/>
 								<div>
 									<input
-										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 										type="radio"
 										name="flexRadioDefault"
 										id="flexRadioDefault1"
 									/>
 									<div className="flex flex-col">
 										<div>
-											<label className="form-check-label text-[#354649] font-bold">
+											<label className="form-check-label text-[#314455] font-bold">
 												UPS Deliveries
 											</label>
-											<label className="form-check-label ml-10 text-[#354649] font-bold">
+											<label className="form-check-label ml-10 text-[#314455] font-bold">
 												30 HRK
 											</label>
 										</div>
@@ -341,17 +341,17 @@ export default function Toggle() {
 								/>
 								<div>
 									<input
-										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 										type="radio"
 										name="flexRadioDefault"
 										id="flexRadioDefault1"
 									/>
 									<div className="flex flex-col">
 										<div>
-											<label className="form-check-label text-[#354649] font-bold">
+											<label className="form-check-label text-[#314455] font-bold">
 												FedEx Delivery
 											</label>
-											<label className="form-check-label ml-10 text-[#354649] font-bold">
+											<label className="form-check-label ml-10 text-[#314455] font-bold">
 												50 HRK
 											</label>
 										</div>
@@ -363,14 +363,14 @@ export default function Toggle() {
 							<div className="flex text-center justify-around w-[100%]">
 								<button
 									onClick={shippMtd}
-									className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+									className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 								>
 									Previous
 								</button>
 
 								<button
 									onClick={payment}
-									className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+									className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 								>
 									Next
 								</button>
@@ -379,85 +379,85 @@ export default function Toggle() {
 					</div>
 				</div>
 				<div className="bg-[#E0E7E9] shadow-lg flex-1 my-[0.6em] ">
-					<div className="text-center font-sans text-3xl font-normal text-[#354649] border-[0.5px] border-[#354649]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455] border-[0.5px] border-[#314455]">
 						<div className="my-[0.2em]">Payment</div>
 						{/*The bottom code should toggle on and off when the button is pressed*/}
 					</div>
 					<div
 						style={{
 							display: showMe3 ? 'block' : 'none',
-							borderLeft: '0.5px solid #354649',
-							borderBottom: '0.5px solid #354649',
-							borderRight: '0.5px solid #354649',
+							borderLeft: '0.5px solid #314455',
+							borderBottom: '0.5px solid #314455',
+							borderRight: '0.5px solid #314455',
 						}}
 					>
 						<div>
-							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#354649]">
+							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#314455]">
 								<img
-									src="/images/image45.png"
+									src="/images/image3.png"
 									alt="Cart" //change name
 									className="max-w-[7.5em] p-[1em] flex-1"
 								/>
 								<div>
 									<input
-										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 										type="radio"
 										name="flexRadioDefault"
 										id="flexRadioDefault1"
 									/>
 
-									<label className="form-check-label text-[#354649] font-bold">
+									<label className="form-check-label text-[#314455] font-bold">
 										Paypal
 									</label>
-									<label className="form-check-label ml-10 text-[#354649] font-bold">
+									<label className="form-check-label ml-10 text-[#314455] font-bold">
 										VAT: 3%
 									</label>
 								</div>
 							</div>
-							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#354649]">
+							<div className="mx-4 flex flex-row items-center justify-around border-b-[0.5px] border-[#314455]">
 								<img
-									src="/images/image46.png"
+									src="/images/image4.png"
 									alt="Cart" //change name
 									className="max-w-[7.5em] p-[1em] flex-1"
 								/>
 								<div>
 									<input
-										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+										className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 										type="radio"
 										name="flexRadioDefault"
 										id="flexRadioDefault1"
 									/>
 
-									<label className="form-check-label text-[#354649] font-bold">
+									<label className="form-check-label text-[#314455] font-bold">
 										VISA
 									</label>
-									<label className="form-check-label ml-10 text-[#354649] font-bold">
+									<label className="form-check-label ml-10 text-[#314455] font-bold">
 										VAT: 0.5%
 									</label>
 								</div>
 							</div>
 							<div className="mx-4 my-2 flex flex-row items-center justify-around">
 								<img
-									src="/images/image47.png"
+									src="/images/image5.png"
 									alt="Cart" //change name
 									className="max-w-[7.5em] p-[1em] flex-1"
 								/>
 								<div className="flex flex-row justify-around">
 									<div>
 										<input
-											className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#354649] bg-white checked:bg-[#354649] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
+											className="form-check-input appearance-none rounded-full h-4 w-4 border border-[#314455] bg-white checked:bg-[#314455] checked:border-[#E0E7E9] focus:outline-none transition duration-400 mt-1 bg-no-repeat bg-center float-left mr-2 cursor-pointer"
 											type="radio"
 											name="flexRadioDefault"
 											id="flexRadioDefault1"
 										/>
 									</div>
 									<div>
-										<label className="form-check-label text-[#354649] font-bold">
+										<label className="form-check-label text-[#314455] font-bold">
 											Maestro
 										</label>
 									</div>
 									<div>
-										<label className="form-check-label ml-4 text-[#354649] font-bold">
+										<label className="form-check-label ml-4 text-[#314455] font-bold">
 											VAT: 0.5%
 										</label>
 									</div>
@@ -466,13 +466,13 @@ export default function Toggle() {
 							<div className="flex text-center justify-around w-[100%]">
 								<button
 									onClick={payment}
-									className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+									className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 								>
 									Previous
 								</button>
 								<button
 									// onClick={payment}
-									className="bg-[#A3C6C4] w-[5em] py-[0.2em] my-3 text-xl text-[#354649]"
+									className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]"
 								>
 									Checkout
 								</button>
@@ -485,13 +485,14 @@ export default function Toggle() {
 			<div className="ml-[0.5em] max-w-[450px] flex-[1_1_100%]">
 				<div className="bg-[#E0E7E9] shadow-lg my-[0.6em]">
 					<div>
-						<div className="font-sans text-3xl font-normal text-[#354649]">
-							<div className="text-center py-[0.2em] border-[0.5px] border-[#354649]">
-								Order preview
+						<div className="font-sans text-3xl font-normal text-[#314455]">
+							<div className="text-center font-sans text-2xl font-bold text-[#314455] border-[0.5px] border-[#314455]">
+								<div className="my-[0.2em]">Order preview</div>
+								{/*The bottom code should toggle on and off when the button is pressed*/}
 							</div>
-							<div className="border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] border-[#354649]">
+							<div className="border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] border-[#314455]">
 								<div className="mx-4">
-									<div className="flex flex-row border-b-[0.5px] border-[#354649]">
+									<div className="flex flex-row border-b-[0.5px] border-[#314455]">
 										<img
 											src="/images/image38.png"
 											alt="Cart" //change name
@@ -528,7 +529,7 @@ export default function Toggle() {
 									</div>
 								</div>
 								<div className="mx-4">
-									<div className="flex flex-row border-b-[0.5px] border-[#354649]">
+									<div className="flex flex-row border-b-[0.5px] border-[#314455]">
 										<img
 											src="/images/image37.png"
 											alt="Cart" //change name
@@ -565,7 +566,7 @@ export default function Toggle() {
 									</div>
 								</div>
 								<div className="mx-4">
-									<div className="flex flex-row border-b-[0.5px] border-[#354649]">
+									<div className="flex flex-row border-b-[0.5px] border-[#314455]">
 										<img
 											src="/images/image36.png"
 											alt="Cart" //change name
@@ -601,7 +602,7 @@ export default function Toggle() {
 										</div>
 									</div>
 								</div>
-								<div className="mx-4 flex flex-row border-[#354649] justify-between border-b-[0.5px]">
+								<div className="mx-4 flex flex-row border-[#314455] justify-between border-b-[0.5px]">
 									<div className="flex flex-col pl-[5em] py-[0.5em]">
 										<div className="flex-1 font-sans font-normal text-base">
 											Subtotal:
@@ -632,10 +633,10 @@ export default function Toggle() {
 									</div>
 								</div>
 								<div className="mx-4 flex flex-row pl-[5em] py-[0.5em] justify-between">
-									<div className="flex-1 font-sans font-normal text-base">
+									<div className="flex-1 font-bold font-sans text-lg">
 										Order total:
 									</div>
-									<div className="flex-1 font-sans font-normal text-base text-right">
+									<div className="flex-1 font-sans font-bold text-right text-lg">
 										79.999,00 HRK
 									</div>
 								</div>
@@ -644,8 +645,8 @@ export default function Toggle() {
 					</div>
 				</div>
 				<div className="flex-1 w-full">
-					<Link href="/cart/payment" className="no-underline text-[#354649]">
-						<div className="bg-[#A3C6C4] shadow-lg flex-1 my-[0.6em] py-[0.2em] border-[0.5px] border-[#354649] text-center text-2xl">
+					<Link href="/cart/payment" className="no-underline text-[#314455]">
+						<div className="bg-[#C96567] shadow-lg rounded-md flex-1 my-[0.6em] py-[0.2em] hover:text-[#C96567] hover:bg-[#314455] border-[0.5px] border-[#314455] text-center text-2xl text-[#ffffff]">
 							Safe payment information
 						</div>
 					</Link>

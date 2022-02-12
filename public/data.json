@@ -9,6 +9,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "20",
+        "rating": "3",
+        "review": ["irene.matias", "anita.stoffel"],
         "tag": "TVs & Monitors"
     },
     {
@@ -16,11 +19,14 @@
         "desc": "Galaxy S21 Ultra 5G Dual SIM",
         "prevPrice": "10.299,00 HRK",
         "price": "6.000,00 HRK",
-        "image": ["image36.1.png","image36.2.png","image36.3.png","image36.4.png"],
+        "image": ["image36.1.png"],
         "id": "1",
-        "color": ["Olive", "Graphite", "Lavander", "White"],
+        "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "10",
+        "rating": "3.5",
+        "review": ["katie.turley"],
         "tag": "Mobile"
     },
     {
@@ -33,6 +39,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "10",
+        "rating": "4.5",
+        "review": ["leroy.williams"],
         "tag": "Laptop"
     },
     {
@@ -45,6 +54,9 @@
         "id": "3",
         "offer": "0",
         "new": "0",
+        "discount": "12",
+        "rating": "2",
+        "review": ["latoyia.klein", "dianne.hicks", "alexander.mickel"],
         "tag": "Mobile",
         "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborinisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiatnulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -59,6 +71,9 @@
         "color": [],
         "offer": "1",
         "new": "0",
+        "discount": "10",
+        "rating": "3",
+        "review": ["jevrem.akšamović", "drejc.remžgar"],
         "tag": "Mobile"
     },
     {
@@ -72,6 +87,9 @@
         "color": [],
         "offer": "0",
         "new": "1",
+        "discount": "9",
+        "rating": "1",
+        "review": ["adam.zaitsev"],
         "tag": "TVs & Monitors"
     },
     {
@@ -85,6 +103,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "1.5",
+        "review": ["xiu.tao"],
         "tag": "Mobile"
     },
     {
@@ -98,6 +119,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "5",
+        "review": ["tomer.hegge"],
         "tag": "Laptop"
     },
     {
@@ -111,6 +135,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "5",
+        "review": ["thor.arvidsson"],
         "tag": "PC"
     },
     {
@@ -124,6 +151,9 @@
         "color": [],
         "offer": "0",
         "new": "1",
+        "discount": "0",
+        "rating": "4.5",
+        "review": ["noelle.jansson"],
         "tag": "PC"
     },
     {
@@ -137,6 +167,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "2.5",
+        "review": ["maximilian.svensson"],
         "tag": "Audio"
     },
     {
@@ -150,6 +183,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "0.5",
+        "review": [],
         "tag": "Audio"
     },
     {
@@ -163,6 +199,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "1.5",
+        "review": ["will.smith"],
         "tag": "Dishwasher"
     },
     {
@@ -176,6 +215,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "4",
+        "review": ["myles.smith"],
         "tag": "Dishwasher"
     },
     {
@@ -189,6 +231,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "4",
+        "review": ["lacey.black"],
         "tag": "Washing machine"
     },
     {
@@ -202,6 +247,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "5",
+        "review": ["bruno.sinclair"],
         "tag": "Washing machine"
     },
     {
@@ -215,6 +263,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "5",
+        "review": ["mikolaj.moore"],
         "tag": "Refrigerator"
     },
     {
@@ -228,6 +279,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "4.5",
+        "review": ["ajay.aitken"],
         "tag": "Refrigerator"
     },
     {
@@ -241,6 +295,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "3.5",
+        "review": ["kaja.nowakowska"],
         "tag": "Socket"
     },
     {
@@ -254,6 +311,9 @@
         "color": [],
         "offer": "0",
         "new": "0",
+        "discount": "0",
+        "rating": "2",
+        "review": ["radzimierz.nowak"],
         "tag": "Light_bulbs"
     }
 ]

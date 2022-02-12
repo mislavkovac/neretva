@@ -10,6 +10,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import Fade from '@mui/material/Fade';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { Link } from '@mui/material';
 
 export default function HeaderMobile() {
 	const [showNavbar, setShowNavbar] = useState(false);
@@ -49,23 +50,23 @@ export default function HeaderMobile() {
 						style={{
 							zIndex: showOptions ? '0' : '20',
 						}}
-						className="bg-[#C96567] rounded-full z-10 flex w-[3.5rem] h-[3.5rem] justify-center items-center"
+						className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
 					>
 						<MenuIcon
-							style={{ color: 'white', width: '3rem', height: '3rem' }}
+							style={{ color: 'white', width: '2rem', height: '2rem' }}
 						/>
 					</button>
 				</Fade>
 				<Fade in={showNavbar} timeout={700}>
 					<button
 						onClick={navbar}
-						className="bg-[#C96567] rounded-full z-30 absolute flex flex-1 w-[3.5rem] h-[3.5rem] justify-center items-center"
+						className="bg-[#C96567] rounded-full z-30 absolute flex flex-1 w-[2.5rem] h-[2.5rem] justify-center items-center"
 					>
 						<CloseIcon
 							style={{
 								color: 'white',
-								width: '3rem',
-								height: '3rem',
+								width: '2rem',
+								height: '2rem',
 								display: 'flex',
 								flex: '1',
 							}}
@@ -77,10 +78,10 @@ export default function HeaderMobile() {
 					src="/images/logo.png"
 					alt="logo"
 				/> */}
-				<div className="text-4xl break-all text-center font-bold text-[#fafafa]">
+				<div className="text-3xl break-all text-center font-bold text-[#fafafa]">
 					Neretva.com
 				</div>
-				<Fade in={!showOptions} timeout={700}>
+				{/* <Fade in={!showOptions} timeout={700}>
 					<button
 						style={{
 							zIndex: showNavbar ? '0' : '20',
@@ -92,12 +93,20 @@ export default function HeaderMobile() {
 							style={{ color: 'white', width: '3rem', height: '3rem' }}
 						/>
 					</button>
-				</Fade>
+				</Fade> */}
+				<Link
+					href="/cart"
+					className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
+				>
+					<ShoppingBagIcon
+						style={{ color: 'white', width: '2rem', height: '2rem' }}
+					/>
+				</Link>
 				<Fade in={showOptions} timeout={700}>
-					<button className="bg-[#C96567] rounded-full absolute right-2 flex z-30 w-[3.5rem] h-[3.5rem] justify-center items-center">
+					<button className="bg-[#C96567] rounded-full absolute right-2 flex z-30 w-[2.5rem] h-[2.5rem] justify-center items-center">
 						<CloseIcon
 							onClick={options}
-							style={{ color: 'white', width: '3rem', height: '3rem' }}
+							style={{ color: 'white', width: '2rem', height: '2rem' }}
 						/>
 					</button>
 				</Fade>

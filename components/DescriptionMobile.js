@@ -71,7 +71,7 @@ export default function Description({
 		}
 	}
 	return (
-		<div className="flex flex-1 mb-[14rem]">
+		<div className="flex flex-1">
 			<div className="w-[100%] p-2 bg-white rounded-2xl">
 				<Disclosure className="w-[100%]">
 					{({ open }) => (
@@ -131,7 +131,7 @@ export default function Description({
 								/>
 							</Disclosure.Button>
 							<Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-[#354649]">
-								<div className="flex flex-row justify-center">
+								<div className="flex flex-col justify-center">
 									{relatedProducts}
 								</div>
 							</Disclosure.Panel>
@@ -150,7 +150,6 @@ export default function Description({
 								/>
 							</Disclosure.Button>
 							<Disclosure.Panel className="px-4 pt-4 pb-2 flex flex-col items-center text-base text-[#354649]">
-								{/* <div className="flex flex-col items-center">{cards}</div> */}
 								{productReview}
 							</Disclosure.Panel>
 						</>

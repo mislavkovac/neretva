@@ -1,17 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 import React from 'react';
-import data from '../public/data.json';
+import Navbar from './Navbar';
 import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import Sidebar from './Sidebar';
-import Card from './Card';
 import { Link } from '@mui/material';
+import data from '../public/data.json';
+import Sidebar from './Sidebar';
+import ReviewCard from './ReviewCard';
 import Footer from './Footer';
-import Navbar from './Navbar';
 
-export default function Categories() {
+const Reviews = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -19,18 +19,22 @@ export default function Categories() {
 
 	let cards = [];
 	for (const item of data) {
-		cards.push(
-			<Card
-				id={item.id}
-				image={item.image}
-				price={item.price}
-				prevPrice={item.prevPrice}
-				name={item.name}
-				desc={item.desc}
-				tag={item.tag}
-				path={'categories'}
-			/>
-		);
+		for (const review of item.review) {
+			cards.push(
+				<ReviewCard
+					id={item.id}
+					image={item.image}
+					price={item.price}
+					prevPrice={item.prevPrice}
+					name={item.name}
+					desc={item.desc}
+					tag={item.tag}
+					path={'categories'}
+					rating={item.rating}
+					review={review}
+				/>
+			);
+		}
 	}
 	return (
 		<div className="">
@@ -78,10 +82,10 @@ export default function Categories() {
 				</div>
 			</div>
 			<div className="flex flex-row">
-				<Sidebar path={'categories'} />
+				<Sidebar path={'reviews'} />
 				<div className="flex flex-col w-[100%]">
 					<div className="mt-[0.5em] text-center font-sans text-5xl font-extrabold text-[#314455] underline decoration-[#C96567]">
-						All products
+						Product reviews
 					</div>
 					<div className="mt-[2em] justify-center align-middle flex flex-row flex-wrap">
 						{cards}
@@ -91,64 +95,6 @@ export default function Categories() {
 			<Footer />
 		</div>
 	);
-}
-
-export const getStaticProps = async () => {
-	let mobile = [];
-	let tv = [];
-	let laptop = [];
-	let pc = [];
-	let audio = [];
-	let dishwasher = [];
-	let washing_mach = [];
-	let refrigerator = [];
-	let socket = [];
-	let light_bulbs = [];
-	for (const item of data) {
-		if (item.tag === 'Mobile') {
-			mobile.push(item);
-		}
-		if (item.tag === 'TVs & Monitors') {
-			tv.push(item);
-		}
-		if (item.tag === 'Laptop') {
-			laptop.push(item);
-		}
-		if (item.tag === 'PC') {
-			pc.push(item);
-		}
-		if (item.tag === 'Audio') {
-			audio.push(item);
-		}
-		if (item.tag === 'Dishwasher') {
-			dishwasher.push(item);
-		}
-		if (item.tag === 'Washing_machine') {
-			washing_mach.push(item);
-		}
-		if (item.tag === 'Refrigerator') {
-			refrigerator.push(item);
-		}
-		if (item.tag === 'Socket') {
-			socket.push(item);
-		}
-		if (item.tag === 'Light_bulbs') {
-			light_bulbs.push(item);
-		}
-	}
-
-	return {
-		props: {
-			mobile: mobile,
-			tv: tv,
-			laptop: laptop,
-			pc: pc,
-			audio: audio,
-			dishwasher: dishwasher,
-			washing_mach: washing_mach,
-			refrigerator: refrigerator,
-			socket: socket,
-			light_bulbs: light_bulbs,
-		},
-	};
 };
+
+export default Reviews;

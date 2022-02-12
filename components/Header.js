@@ -6,6 +6,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Navbar from './Navbar';
+import { Link } from '@mui/material';
 
 export default function Header() {
 	const [showSearch, setShowSearch] = useState(true);
@@ -15,13 +16,13 @@ export default function Header() {
 	return (
 		<div className="h-[700px] w-[100%] flex flex-col mb-[0.5rem] bg-gradient-to-b from-[#314455] to-[#97aabd] ">
 			<div className="flex flex-row justify-center">
-				<div>
+				<Link href="/">
 					<img
 						className="max-h-[50px] mt-[1rem] px-[0.4rem] self-center"
 						src="/images/logo.png"
 						alt="logo"
 					/>
-				</div>
+				</Link>
 				<input
 					style={{
 						display: showSearch ? 'none' : 'block',
@@ -40,7 +41,7 @@ export default function Header() {
 				>
 					<Navbar />
 				</div>
-				<div className="flex flex-row justify-center mt-[1rem]">
+				<div className="flex flex-row justify-center mt-[1.5rem]">
 					<button
 						onClick={searchShow}
 						className="bg-[#C96567] ml-[1rem] h-[30px] p-[0.2rem] m-[0.2rem] rounded-full flex justify-center items-center"
@@ -50,9 +51,12 @@ export default function Header() {
 					<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
 					</button>
-					<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
-						<ShoppingBagIcon style={{ color: 'white' }} />
-					</button>
+					<Link
+						className="p-[0.2rem] m-[0.2rem] rounded-full flex"
+						href="/cart"
+					>
+						<ShoppingBagIcon style={{ color: 'white', cursor: 'pointer' }} />
+					</Link>
 				</div>
 			</div>
 			<div className="flex flex-row items-center justify-center w-[100%] break-words">

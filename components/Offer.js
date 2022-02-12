@@ -27,10 +27,10 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 					/>
 				</div>
 				<div className="flex flex-col justify-center">
-					<div className="text-center font-sans text-2xl font-normal text-[#314455]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455]">
 						{name}
 					</div>
-					<div className="text-center font-sans text-md font-normal text-[#314455]">
+					<div className="text-center font-sans text-md font-bold text-[#C96567]">
 						{desc}
 					</div>
 					<div className="">
@@ -43,15 +43,17 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-[1.5rem] items-center justify-center flex md:flex-row flex-col justify-center">
+			<div className="mt-[1.5rem] items-center flex md:flex-row flex-col justify-center">
 				<Chip
-					icon={<LocalOfferIcon style={{ color: '#FAFAFA' }} />}
+					icon={
+						<LocalOfferIcon style={{ color: '#FAFAFA', padding: '0.1rem' }} />
+					}
 					label="Best Offer"
 					style={{
 						color: '#FAFAFA',
 						background: '#644e5b',
 						fontWeight: '900',
-						width: '7.5rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 				/>
@@ -60,6 +62,7 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						<AccessTimeIcon
 							style={{
 								color: '#FAFAFA',
+								padding: '0.1rem',
 							}}
 						/>
 					}
@@ -67,7 +70,7 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						color: '#FAFAFA',
 						background: '#9e5a63',
 						fontWeight: '900',
-						width: '7rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 					label="HurryUp!!"
@@ -77,6 +80,7 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						<PercentIcon
 							style={{
 								color: '#FAFAFA',
+								padding: '0.1rem',
 							}}
 						/>
 					}
@@ -84,7 +88,7 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						color: '#FAFAFA',
 						background: '#97aabd',
 						fontWeight: '900',
-						width: '4rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 					label="20"

@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState } from 'react';
-import React from 'react';
-import data from '../public/data.json';
+import { React, useState } from 'react';
 import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import Sidebar from './Sidebar';
-import Card from './Card';
+import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import data from '../public/data.json';
+import Card from '../components/Card';
 import { Link } from '@mui/material';
-import Footer from './Footer';
-import Navbar from './Navbar';
 
-export default function Categories() {
+const discounts = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -19,21 +18,23 @@ export default function Categories() {
 
 	let cards = [];
 	for (const item of data) {
-		cards.push(
-			<Card
-				id={item.id}
-				image={item.image}
-				price={item.price}
-				prevPrice={item.prevPrice}
-				name={item.name}
-				desc={item.desc}
-				tag={item.tag}
-				path={'categories'}
-			/>
-		);
+		if (item.prevPrice !== '')
+			cards.push(
+				<Card
+					id={item.id}
+					image={item.image}
+					prevPrice={item.prevPrice}
+					price={item.price}
+					name={item.name}
+					desc={item.desc}
+					tag={item.tag}
+					path={'categories'}
+				/>
+			);
 	}
+
 	return (
-		<div className="">
+		<div>
 			<div className="flex flex-row justify-center bg-[#314455] mb-[0.5rem] h-[5rem]">
 				<Link href="/">
 					<img
@@ -78,10 +79,10 @@ export default function Categories() {
 				</div>
 			</div>
 			<div className="flex flex-row">
-				<Sidebar path={'categories'} />
+				<Sidebar path={'discounts'} />
 				<div className="flex flex-col w-[100%]">
 					<div className="mt-[0.5em] text-center font-sans text-5xl font-extrabold text-[#314455] underline decoration-[#C96567]">
-						All products
+						Discounts
 					</div>
 					<div className="mt-[2em] justify-center align-middle flex flex-row flex-wrap">
 						{cards}
@@ -91,7 +92,9 @@ export default function Categories() {
 			<Footer />
 		</div>
 	);
-}
+};
+
+export default discounts;
 
 export const getStaticProps = async () => {
 	let mobile = [];
@@ -105,34 +108,34 @@ export const getStaticProps = async () => {
 	let socket = [];
 	let light_bulbs = [];
 	for (const item of data) {
-		if (item.tag === 'Mobile') {
+		if (item.tag === 'Mobile' && item.discount !== '0') {
 			mobile.push(item);
 		}
-		if (item.tag === 'TVs & Monitors') {
+		if (item.tag === 'TVs & Monitors' && item.discount !== '0') {
 			tv.push(item);
 		}
-		if (item.tag === 'Laptop') {
+		if (item.tag === 'Laptop' && item.discount !== '0') {
 			laptop.push(item);
 		}
-		if (item.tag === 'PC') {
+		if (item.tag === 'PC' && item.discount !== '0') {
 			pc.push(item);
 		}
-		if (item.tag === 'Audio') {
+		if (item.tag === 'Audio' && item.discount !== '0') {
 			audio.push(item);
 		}
-		if (item.tag === 'Dishwasher') {
+		if (item.tag === 'Dishwasher' && item.discount !== '0') {
 			dishwasher.push(item);
 		}
-		if (item.tag === 'Washing_machine') {
+		if (item.tag === 'Washing_machine' && item.discount !== '0') {
 			washing_mach.push(item);
 		}
-		if (item.tag === 'Refrigerator') {
+		if (item.tag === 'Refrigerator' && item.discount !== '0') {
 			refrigerator.push(item);
 		}
-		if (item.tag === 'Socket') {
+		if (item.tag === 'Socket' && item.discount !== '0') {
 			socket.push(item);
 		}
-		if (item.tag === 'Light_bulbs') {
+		if (item.tag === 'Light_bulbs' && item.discount !== '0') {
 			light_bulbs.push(item);
 		}
 	}

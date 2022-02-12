@@ -19,10 +19,10 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 					/>
 				</div>
 				<div className="flex flex-1 flex-col m-[1rem] justify-center break-words">
-					<div className="text-center font-sans text-2xl font-normal text-[#314455]">
+					<div className="text-center font-sans text-2xl font-bold text-[#314455]">
 						{name}
 					</div>
-					<div className="text-center font-sans text-md font-normal text-[#314455]">
+					<div className="text-center font-sans text-md font-bold text-[#C96567]">
 						{desc}
 					</div>
 					<div className="">
@@ -37,7 +37,9 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 			</div>
 			<div className="md:flex md:flex-row flex-col">
 				<Chip
-					icon={<NewReleasesIcon style={{ color: '#FAFAFA' }} />}
+					icon={
+						<NewReleasesIcon style={{ color: '#FAFAFA', padding: '0.1rem' }} />
+					}
 					label="New"
 					style={{
 						color: '#FAFAFA',
@@ -52,6 +54,7 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						<PercentIcon
 							style={{
 								color: '#FAFAFA',
+								padding: '0.1rem',
 							}}
 						/>
 					}
@@ -69,6 +72,7 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						<Inventory2Icon
 							style={{
 								color: '#FAFAFA',
+								padding: '0.1rem',
 							}}
 						/>
 					}

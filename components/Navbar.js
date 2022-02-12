@@ -11,10 +11,10 @@ const Navbar = () => {
 				Categories
 			</Link>
 			<Link
-				href="/specialoffers"
+				href="/discounts"
 				className="order-2 no-underline text-[#ffffff] px-[1.5rem] font-semibold transition duration-300 hover:text-[#314455] rounded-full hover:bg-[#C96567] h-[50px] flex text-center justify-center items-center"
 			>
-				Special Offers
+				Discounts
 			</Link>
 			<Link
 				href="/reviews"

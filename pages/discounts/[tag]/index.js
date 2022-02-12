@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import CategoriesTag from '../../../components/CategoriesTag';
-import CategoriesTagMobile from '../../../components/CategoriesTagMobile';
+import DiscountTag from '../../../components/DiscountTag';
+import DiscountTagMobile from '../../../components/DiscountTagMobile';
 
 export default function Categorie() {
 	return (
-		<div className="">
+		<div>
 			<div className="hidden sm:block">
-				<CategoriesTag />
+				<DiscountTag />
 			</div>
 			<div className="block sm:hidden">
-				<CategoriesTagMobile />
+				<DiscountTagMobile />
 			</div>
 		</div>
 	);

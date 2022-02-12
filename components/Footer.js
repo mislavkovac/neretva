@@ -3,10 +3,10 @@ const Footer = () => {
 	return (
 		<div className="bg-[#314455] flex flex-row place-content-center h-[25%] py-[2em] mt-[2em]">
 			<div className="mr-[4em] ">
-				<div className="font-sans text-2xl font-normal text-[#FAFAFA]">
+				<div className="font-sans text-xl font-normal text-[#FAFAFA]">
 					Address:
 				</div>
-				<div className="font-sans text-base font-normal text-[#FAFAFA]">
+				<div className="font-sans text-sm font-normal text-[#FAFAFA]">
 					<div>Neretva d.d.</div>
 					<div>Neretvanska ulica 107x</div>
 					<div>Neretvinodol 99000</div>
@@ -14,10 +14,10 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="ml-[4em] mr-[4em]">
-				<div className="font-sans text-2xl font-normal text-[#FAFAFA]">
+				<div className="font-sans text-xl font-normal text-[#FAFAFA]">
 					Contact:
 				</div>
-				<div className="font-sans text-base font-normal text-[#FAFAFA]">
+				<div className="font-sans text-sm font-normal text-[#FAFAFA]">
 					<div>info@neretva.com</div>
 					<div>+999 1111 1111</div>
 					<div className="flex flex-row items-center">
@@ -40,10 +40,10 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="ml-[4em]">
-				<div className="font-sans text-2xl font-normal text-[#FAFAFA]">
+				<div className="font-sans text-xl font-normal text-[#FAFAFA]">
 					Accepted payment:
 				</div>
-				<div className="font-sans text-base font-normal text-[#FAFAFA]">
+				<div className="font-sans text-sm font-normal text-[#FAFAFA]">
 					<div>Credit/Debit card</div>
 					<div>PayPal</div>
 					<div className="flex flex-row">

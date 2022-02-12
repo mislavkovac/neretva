@@ -6,24 +6,15 @@ const Cartheader = () => {
 	return (
 		<div className="flex flex-row justify-center break-words content-center">
 			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] max-w-[500px] flex-[1_1_100%] border-[0.5px] border-[#354649]">
-				<div className="flex justify-between flex-row">
-					<div className="ml-[1em]">
-						<div className="font-sans text-3xl mt-[0.4em] font-normal">
-							Neretva.com
-						</div>
-						<div className="font-sans text-2xl font-normal">
-							Your shopping cart
-						</div>
-						<div className="font-sans text-lg font-normal mt-[1em]">
-							You are not logged in, checking out as Guest
-						</div>
+				<div className="ml-[1em]">
+					<div className="font-sans text-4xl font-bold text-[#314455] underline decoration-[#C96567]">
+						Neretva.com
 					</div>
-					<div>
-						<img
-							src="/images/image65.png"
-							alt="Logo"
-							className="max-h-[8em] p-[0.5em]"
-						/>
+					<div className="font-sans text-2xl font-normal">
+						Your shopping cart
+					</div>
+					<div className="font-sans text-lg font-normal mt-[1em]">
+						You are not logged in, checking out as Guest
 					</div>
 				</div>
 			</div>
@@ -34,12 +25,12 @@ const Cartheader = () => {
 				<div>
 					<div className="mt-[1em] flex text-center justify-around w-[100%]">
 						<Link href="/register" className="no-underline flex">
-							<div className="bg-[#A3C6C4] w-[5em] py-[0.2em] mt-3 text-2xl text-[#354649]">
+							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Register
 							</div>
 						</Link>
 						<Link href="/login" className="no-underline flex">
-							<div className="bg-[#A3C6C4] w-[5em] py-[0.2em] mt-3 text-2xl text-[#354649]">
+							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Login
 							</div>
 						</Link>

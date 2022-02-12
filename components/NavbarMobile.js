@@ -41,7 +41,7 @@ const NavbarMobile = () => {
 						/>
 					</Link>
 					<Link
-						href="/specialoffers"
+						href="/discounts"
 						className="order-2 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
 					>
 						<Chip
@@ -59,7 +59,7 @@ const NavbarMobile = () => {
 								margin: '2rem 0 0 0',
 								width: '150px',
 							}}
-							label="Special Offers"
+							label="Discounts"
 						/>
 					</Link>
 					<Link

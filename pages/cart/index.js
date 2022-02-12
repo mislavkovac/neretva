@@ -5,7 +5,7 @@ import Toggle from '../../components/Toggle';
 /* eslint-disable @next/next/no-img-element */
 export default function cart() {
 	return (
-		<div className="h-screen bg-[#6C7A89] text-[#354649] flex justify-center items-center">
+		<div className="h-screen bg-[#314455] text-[#314455] flex justify-center items-center">
 			<div
 				style={{
 					maxWidth: '980px',
@@ -16,7 +16,7 @@ export default function cart() {
 					<Cartheader />
 					<Toggle />
 				</div>
-				<div className="flex flex-col font-sans text-xl font-normal text-[#FAFAFA] w-[100%]">
+				<div className="flex flex-col font-sans text-xl mb-[1rem] font-normal text-[#FAFAFA] w-[100%]">
 					<div className="">Help & Support informaton:</div>
 					<div className="flex-1 flex flex-row text-base w-[100%] justify-between">
 						<div
