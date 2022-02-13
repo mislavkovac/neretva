@@ -6,6 +6,7 @@ import StarsIcon from '@mui/icons-material/Stars';
 import ReviewsIcon from '@mui/icons-material/Reviews';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import PersonIcon from '@mui/icons-material/Person';
+import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows';
 import Link from 'next/link';
 
 const NavbarMobile = () => {
@@ -19,6 +20,30 @@ const NavbarMobile = () => {
 			/>
 			<div className="grid grid-rows-2 divide-y gap-[2rem]">
 				<div>
+					<Link
+						className="cursor-pointer"
+						href={`/${path}/[id]`}
+						as={`/${path}/TVs%20&%20Monitors`}
+						passHref
+					>
+						<Chip
+							icon={
+								<DesktopWindowsIcon
+									style={{
+										color: '#C96567',
+									}}
+								/>
+							}
+							style={{
+								color: '#C96567',
+								background: '#FAFAFA',
+								fontWeight: '900',
+								margin: '0.5rem 0 0 0',
+								width: '150px',
+							}}
+							label="TVs & Monitors"
+						/>
+					</Link>
 					<Link
 						href="/categories"
 						className="order-1 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
