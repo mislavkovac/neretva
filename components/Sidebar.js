@@ -183,7 +183,7 @@ const Sidebar = ({ path }) => {
 						</Link>
 					</ul>
 					<div className="font-sans pl-[0.5em] text-3xl mt-[0.4em] font-normal">
-						"Tebi ko Tebi"
+						&quot;Tebi ko Tebi&quot;
 					</div>
 					<div className="font-sans text-3xl pl-[0.5em] mt-[0.4em] font-normal">
 						Ispalo iz kamiona
