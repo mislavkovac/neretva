@@ -13,7 +13,7 @@ import Reviews from '../../components/Reviews';
 import ReviewsMobile from '../../components/ReviewsMobile';
 import Footer from '../../components/Footer';
 
-const reviews = () => {
+const Review = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -50,4 +50,4 @@ const reviews = () => {
 	);
 };
 
-export default reviews;
+export default Review;

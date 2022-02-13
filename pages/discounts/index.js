@@ -5,7 +5,7 @@ import Card from '../../components/Card';
 import Discount from '../../components/Discount';
 import DiscountMobile from '../../components/DiscountMobile';
 
-const discounts = () => {
+const Discounts = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -40,7 +40,7 @@ const discounts = () => {
 	);
 };
 
-export default discounts;
+export default Discounts;
 
 export const getStaticProps = async () => {
 	let mobile = [];

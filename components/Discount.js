@@ -10,7 +10,7 @@ import data from '../public/data.json';
 import Card from '../components/Card';
 import { Link } from '@mui/material';
 
-const discounts = () => {
+const Discounts = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -94,7 +94,7 @@ const discounts = () => {
 	);
 };
 
-export default discounts;
+export default Discounts;
 
 export const getStaticProps = async () => {
 	let mobile = [];

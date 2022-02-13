@@ -8,7 +8,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 
-const profile = () => {
+const Profile = () => {
 	const [showSearch, setShowSearch] = useState(true);
 	function searchShow() {
 		setShowSearch(!showSearch);
@@ -63,4 +63,4 @@ const profile = () => {
 	);
 };
 
-export default profile;
+export default Profile;
