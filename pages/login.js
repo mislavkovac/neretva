@@ -54,12 +54,8 @@ const login = () => {
 								</div>
 							</Link>
 						</div>
-						<Link
-							href="/"
-							className="no-underline flex text-center justify-around"
-							passHref
-						>
-							<div className="bg-[#314455] w-[7em] py-[0.2em] my-3 text-base text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
+						<Link href="/" passHref>
+							<div className="no-underline flex text-center justify-around bg-[#314455] w-[7rem] py-[0.2em] my-3 text-base text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
 								Return home
 							</div>
 						</Link>
