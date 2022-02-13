@@ -20,12 +20,7 @@ const NavbarMobile = () => {
 			/>
 			<div className="grid grid-rows-2 divide-y gap-[2rem]">
 				<div>
-					<Link
-						className="cursor-pointer"
-						href={`/${path}/[id]`}
-						as={`/${path}/TVs%20&%20Monitors`}
-						passHref
-					>
+					<Link className="cursor-pointer" href="/categories" passHref>
 						<Chip
 							icon={
 								<DesktopWindowsIcon
