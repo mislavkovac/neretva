@@ -49,7 +49,6 @@ const SidebarMobile = ({ path }) => {
 							fontWeight: '900',
 							margin: '0.5rem 0 0 0',
 							width: '150px',
-							textDecorationLine: 'none',
 						}}
 						label="TVs & Monitors"
 					/>

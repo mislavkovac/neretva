@@ -36,6 +36,7 @@ const NavbarMobile = () => {
 								fontWeight: '900',
 								margin: '2rem 0 0 0',
 								width: '150px',
+								textDecorationLine: 'none',
 							}}
 							label="Categories"
 						/>
