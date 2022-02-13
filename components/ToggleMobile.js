@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import { Fade, Link } from '@mui/material';
+import { Fade } from '@mui/material';
 import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import Incart from './Incart';
 import ViewOrderMobile from './ViewOrderMobile';
+import Link from 'next/link';
 
 export default function Toggle() {
 	const [showMe, setShowMe] = useState(true);
@@ -485,14 +486,18 @@ export default function Toggle() {
 				)}
 			</div>
 			<div className="flex-1 w-full">
-				<Link className="no-underline text-[#354649]" href="/">
+				<Link href="/" className="no-underline text-[#354649]" passHref>
 					<div className="bg-[#C96567] shadow-lg rounded-md flex-1 mt-[0.6em] py-[0.2em] hover:text-[#C96567] hover:bg-[#314455] border-[0.5px] text-base border-[#314455] text-center text-[#ffffff]">
 						Return to home
 					</div>
 				</Link>
 			</div>
 			<div className="flex-1 w-full">
-				<Link href="/cart/payment" className="no-underline text-[#314455]">
+				<Link
+					href="/cart/payment"
+					className="no-underline text-[#314455]"
+					passHref
+				>
 					<div className="mb-[3rem] bg-[#C96567] shadow-lg rounded-md flex-1 mt-[0.6em] py-[0.2em] hover:text-[#C96567] hover:bg-[#314455] border-[0.5px] text-base border-[#314455] text-center text-[#ffffff]">
 						Safe payment information & Help
 					</div>
