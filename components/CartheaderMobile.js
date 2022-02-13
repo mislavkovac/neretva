@@ -28,11 +28,10 @@ const CartheaderMobile = () => {
 		<div className="flex flex-col justify-center break-words content-center">
 			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] flex-[1_1_100%] border-[0.5px] border-[#354649]">
 				<div className="flex flex-col items-center">
-					<Link
-						href="/"
-						className="font-sans text-2xl font-bold text-[#314455] underline decoration-[#C96567]"
-					>
-						Neretva.com
+					<Link href="/" passHref>
+						<div className="font-sans text-2xl font-bold text-[#314455] underline decoration-[#C96567]">
+							Neretva.com
+						</div>
 					</Link>
 					<div className="font-sans text-md font-normal">
 						Your shopping cart
