@@ -20,25 +20,6 @@ const NavbarMobile = () => {
 			/>
 			<div className="grid grid-rows-2 divide-y gap-[2rem]">
 				<div>
-					<Link className="cursor-pointer" href="/categories" passHref>
-						<Chip
-							icon={
-								<DesktopWindowsIcon
-									style={{
-										color: '#C96567',
-									}}
-								/>
-							}
-							style={{
-								color: '#C96567',
-								background: '#FAFAFA',
-								fontWeight: '900',
-								margin: '0.5rem 0 0 0',
-								width: '150px',
-							}}
-							label="TVs & Monitors"
-						/>
-					</Link>
 					<Link
 						href="/categories"
 						className="order-1 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
