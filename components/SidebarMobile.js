@@ -314,7 +314,7 @@ const SidebarMobile = ({ path }) => {
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
-					as={`/${path}/Irons`}
+					as={`/${path}/Sensors`}
 					passHref
 				>
 					<Chip
@@ -338,7 +338,7 @@ const SidebarMobile = ({ path }) => {
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
-					as={`/${path}/Irons`}
+					as={`/${path}/Sockets`}
 					passHref
 				>
 					<Chip
@@ -362,7 +362,7 @@ const SidebarMobile = ({ path }) => {
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
-					as={`/${path}/Irons`}
+					as={`/${path}/Light%20bulbs`}
 					passHref
 				>
 					<Chip
@@ -386,7 +386,7 @@ const SidebarMobile = ({ path }) => {
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
-					as={`/${path}/Irons`}
+					as={`/${path}/Switches`}
 					passHref
 				>
 					<Chip
@@ -410,7 +410,7 @@ const SidebarMobile = ({ path }) => {
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
-					as={`/${path}/Irons`}
+					as={`/${path}/Miscellaneous`}
 					passHref
 				>
 					<Chip
