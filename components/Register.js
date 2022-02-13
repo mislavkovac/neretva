@@ -261,7 +261,11 @@ export default function Register() {
 						</button>
 					</div>
 					<div className=" w-[100%] flex justify-around">
-						<Link className="no-underline" href="/" passHref>
+						<Link
+							className="no-underline flex justify-around"
+							href="/"
+							passHref
+						>
 							<button
 								style={{
 									display: thirdButton ? 'block' : 'none',

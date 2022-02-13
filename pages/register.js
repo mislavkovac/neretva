@@ -7,17 +7,13 @@ const login = () => {
 	return (
 		<div className="h-screen bg-[#314455] text-[#314455]">
 			<div className="bg-[#314455] text-[#314455] flex items-center justify-around content-center w-[100%] h-[100%]">
-				<div className="bg-[#E0E7E9] shadow-lg border-[#314455] flex-1 max-w-[500px]">
+				<div className="bg-[#E0E7E9] shadow-lg border-[#314455] flex-1 max-w-[500px] flex flex-col justify-center items-center">
 					<div className="text-center text-3xl sm:text-4xl mt-[3%] font-extrabold text-[#314455] underline decoration-[#C96567] break-words">
 						Please enter your information
 					</div>
 					<Register />
-					<Link
-						href="/"
-						className="no-underline flex text-center justify-around"
-						passHref
-					>
-						<div className="bg-[#314455] w-[7em] py-[0.2em] my-3 text-base text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
+					<Link href="/" passHref>
+						<div className="no-underline flex text-center justify-around bg-[#314455] w-[7rem] py-[0.2em] my-3 text-base text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
 							Return home
 						</div>
 					</Link>
