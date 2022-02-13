@@ -3,7 +3,7 @@ import React from 'react';
 import Router, { useRouter } from 'next/router';
 import { useState } from 'react';
 import Navbar from './Navbar';
-import { Fade, Link, Slide } from '@mui/material';
+import { Fade, Slide } from '@mui/material';
 import data from '../public/data.json';
 import Card from './Card';
 import Sidebar from './Sidebar';
@@ -17,6 +17,7 @@ import NavbarMobile from './NavbarMobile';
 import SortMobile from './SortMobile';
 import FooterMobile from './FooterMobile';
 import SidebarMobile from './SidebarMobile';
+import Link from 'next/link';
 
 export default function Categorie() {
 	const router = useRouter();

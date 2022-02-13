@@ -5,7 +5,7 @@ import { useState } from 'react';
 import FooterMobile from './FooterMobile';
 import Navbar from './Navbar';
 import Search from './Search';
-import { Fade, Link, Slide } from '@mui/material';
+import { Fade, Slide } from '@mui/material';
 import Cart from './Cart';
 import data from '../public/data.json';
 import ReviewCard from './ReviewCard';
@@ -19,6 +19,7 @@ import NavbarMobile from './NavbarMobile';
 import OptionsMobile from './OptionsMobile';
 import SortMobile from './SortMobile';
 import SidebarMobile from './SidebarMobile';
+import Link from 'next/link';
 
 export default function Productreview() {
 	const router = useRouter();

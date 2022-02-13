@@ -4,7 +4,7 @@ import FooterMobile from './FooterMobile';
 import Slide from '@mui/material/Slide';
 import NavbarMobile from './NavbarMobile';
 import OptionsMobile from './OptionsMobile';
-import { Fade, Link } from '@mui/material';
+import { Fade } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import data from '../public/data.json';
@@ -12,6 +12,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import ReviewCard from './ReviewCard';
 import SortMobile from './SortMobile';
 import SidebarMobile from './SidebarMobile';
+import Link from 'next/link';
 
 const ReviewsMobile = () => {
 	const [showNavbar, setShowNavbar] = useState(false);

@@ -13,11 +13,12 @@ import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantity
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import DescriptionIcon from '@mui/icons-material/Description';
 import Navbar from '../components/Navbar';
-import { Fade, Link, Slide } from '@mui/material';
+import { Fade, Slide } from '@mui/material';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import OptionsMobile from './OptionsMobile';
 import NavbarMobile from './NavbarMobile';
 import FooterMobile from './FooterMobile';
+import Link from 'next/link';
 
 const faq = () => {
 	const [showSearch, setShowSearch] = useState(true);
@@ -198,8 +199,8 @@ const faq = () => {
 						className="cursor-pointer m-2 w-[80%] items-center justify-between flex flex-row content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
 						<ManageAccountsIcon
-							style={{ color: '#C96567' }}
-							className="w-[6rem] h-[6rem]"
+							style={{ color: '#C96567', width: '6rem', height: '6rem' }}
+							// className="w-[6rem] h-[6rem]"
 						/>
 						<div
 							style={{

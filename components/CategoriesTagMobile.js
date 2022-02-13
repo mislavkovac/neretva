@@ -5,7 +5,7 @@ import { useState } from 'react';
 import FooterMobile from './FooterMobile';
 import Navbar from './Navbar';
 import Search from './Search';
-import { Fade, Link, Slide } from '@mui/material';
+import { Fade, Slide } from '@mui/material';
 import data from '../public/data.json';
 import Card from './Card';
 import Sidebar from './Sidebar';
@@ -16,6 +16,7 @@ import OptionsMobile from './OptionsMobile';
 import NavbarMobile from './NavbarMobile';
 import SortMobile from './SortMobile';
 import SidebarMobile from './SidebarMobile';
+import Link from 'next/link';
 
 export default function Categorie() {
 	const router = useRouter();
@@ -125,7 +126,7 @@ export default function Categorie() {
 							Neretva.com
 						</div>
 					</Link>
-					<Link href="/cart">
+					<Link href="/cart" passHref>
 						<div className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center">
 							<ShoppingBagIcon
 								style={{ color: 'white', width: '2rem', height: '2rem' }}
