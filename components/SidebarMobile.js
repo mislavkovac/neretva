@@ -28,7 +28,7 @@ const SidebarMobile = ({ path }) => {
 			<div className="font-sans text-3xl mt-[2rem] font-bold underline decoration-[#C96567]">
 				Electronics
 			</div>
-			<div className="flex flex-col items-center">
+			<div className="flex flex-col items-center no-underline">
 				<Link
 					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
