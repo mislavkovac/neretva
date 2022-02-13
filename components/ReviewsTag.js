@@ -5,7 +5,6 @@ import { useState } from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Search from './Search';
-import { Link } from '@mui/material';
 import Cart from './Cart';
 import data from '../public/data.json';
 import ReviewCard from './ReviewCard';
@@ -13,6 +12,7 @@ import Sidebar from './Sidebar';
 import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import Link from 'next/link';
 
 export default function Productreview() {
 	const router = useRouter();
@@ -47,7 +47,7 @@ export default function Productreview() {
 	return (
 		<div>
 			<div className="flex flex-row justify-center bg-[#314455] mb-[0.5rem] h-[5rem]">
-				<Link href="/">
+				<Link href="/" passHref>
 					<img
 						className="max-h-[50px] my-[1rem] px-[0.4rem] self-center"
 						src="/images/logo.png"
@@ -82,7 +82,7 @@ export default function Productreview() {
 					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
 					</Link>
-					<Link className="rounded-full flex" href="/cart">
+					<Link className="rounded-full flex" href="/cart" passHref>
 						<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 							<ShoppingBagIcon style={{ color: 'white' }} />
 						</button>

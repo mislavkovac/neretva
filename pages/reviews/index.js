@@ -5,7 +5,6 @@ import Navbar from '../../components/Navbar';
 import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import { Link } from '@mui/material';
 import data from '../../public/data.json';
 import Sidebar from '../../components/Sidebar';
 import ReviewCard from '../../components/ReviewCard';

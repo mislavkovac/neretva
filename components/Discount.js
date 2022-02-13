@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import data from '../public/data.json';
 import Card from '../components/Card';
-import { Link } from '@mui/material';
+import Link from 'next/link';
 
 const Discounts = () => {
 	const [showSearch, setShowSearch] = useState(true);
@@ -36,7 +36,7 @@ const Discounts = () => {
 	return (
 		<div>
 			<div className="flex flex-row justify-center bg-[#314455] mb-[0.5rem] h-[5rem]">
-				<Link href="/">
+				<Link href="/" passHref>
 					<img
 						className="max-h-[50px] my-[1rem] px-[0.4rem] self-center"
 						src="/images/logo.png"
@@ -71,7 +71,7 @@ const Discounts = () => {
 					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
 					</Link>
-					<Link className="rounded-full flex" href="/cart">
+					<Link className="rounded-full flex" href="/cart" passHref>
 						<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 							<ShoppingBagIcon style={{ color: 'white' }} />
 						</button>

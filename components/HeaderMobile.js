@@ -10,7 +10,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import Fade from '@mui/material/Fade';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import { Link } from '@mui/material';
+import Link from 'next/link';
 
 export default function HeaderMobile() {
 	const [showNavbar, setShowNavbar] = useState(false);
@@ -100,6 +100,7 @@ export default function HeaderMobile() {
 				<Link
 					href="/cart"
 					className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
+					passHref
 				>
 					<ShoppingBagIcon
 						style={{ color: 'white', width: '2rem', height: '2rem' }}

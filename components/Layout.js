@@ -1,5 +1,4 @@
 import stylesLayout from '../styles/Layout.module.css';
-import { Link } from '@mui/material';
 import Search from './Search';
 import Navbar from './Navbar';
 import Home from './Home';

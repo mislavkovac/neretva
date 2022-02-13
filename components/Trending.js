@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { Link } from '@mui/material';
+
+import Link from 'next/link';
 
 const Trending = () => {
 	return (
@@ -11,6 +12,7 @@ const Trending = () => {
 				<Link
 					href="/product"
 					className="flex flex-col content-between no-underline text-[#354649] transition duration-700 ease-in-out hover:scale-110"
+					passHref
 				>
 					<div className="text-center font-sans text-3xl font-normal">
 						Samsung
@@ -35,6 +37,7 @@ const Trending = () => {
 				<Link
 					href="/product"
 					className="flex flex-col content-between no-underline text-[#354649] transition duration-700 ease-in-out hover:scale-110"
+					passHref
 				>
 					<div className="text-center font-sans text-3xl font-normal">
 						Samsung
@@ -59,6 +62,7 @@ const Trending = () => {
 				<Link
 					href="/product"
 					className="flex flex-col content-between no-underline text-[#354649] transition duration-700 ease-in-out hover:scale-110"
+					passHref
 				>
 					<div className="text-center font-sans text-3xl font-normal">
 						Apple
@@ -83,6 +87,7 @@ const Trending = () => {
 				<Link
 					href="/product"
 					className="flex flex-col content-between no-underline text-[#354649] transition duration-700 ease-in-out hover:scale-110"
+					passHref
 				>
 					<div className="text-center font-sans text-3xl font-normal">
 						Apple

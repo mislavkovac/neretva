@@ -13,12 +13,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Sidebar from './Sidebar';
 import Card from './Card';
-import { Link } from '@mui/material';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import SidebarMobile from './SidebarMobile';
 import SortMobile from './SortMobile';
 import FooterMobile from './FooterMobile';
+import Link from 'next/link';
 
 export default function Categories() {
 	const [showSearch, setShowSearch] = useState(true);
@@ -126,6 +126,7 @@ export default function Categories() {
 					<Link
 						href="/cart"
 						className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
+						passHref
 					>
 						<ShoppingBagIcon
 							style={{ color: 'white', width: '2rem', height: '2rem' }}

@@ -6,7 +6,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Navbar from './Navbar';
-import { Link } from '@mui/material';
+import Link from 'next/link';
 
 export default function Header() {
 	const [showSearch, setShowSearch] = useState(true);
@@ -16,7 +16,7 @@ export default function Header() {
 	return (
 		<div className="h-[700px] w-[100%] flex flex-col mb-[0.5rem] bg-gradient-to-b from-[#314455] to-[#97aabd] ">
 			<div className="flex flex-row justify-center">
-				<Link href="/">
+				<Link href="/" passHref>
 					<img
 						className="max-h-[50px] mt-[1rem] px-[0.4rem] self-center"
 						src="/images/logo.png"
@@ -49,11 +49,12 @@ export default function Header() {
 						<SearchIcon style={{ color: 'white' }} />
 					</button>
 					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
-						<PersonIcon style={{ color: 'white' }} />
+						<PersonIcon style={{ color: 'white', cursor: 'pointer' }} />
 					</Link>
 					<Link
 						className="p-[0.2rem] m-[0.2rem] rounded-full flex"
 						href="/cart"
+						passHref
 					>
 						<ShoppingBagIcon style={{ color: 'white', cursor: 'pointer' }} />
 					</Link>

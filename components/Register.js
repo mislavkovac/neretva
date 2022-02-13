@@ -1,4 +1,4 @@
-import { Link } from '@mui/material';
+import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
 
@@ -261,7 +261,7 @@ export default function Register() {
 						</button>
 					</div>
 					<div className=" w-[100%] flex justify-around">
-						<Link className="no-underline" href="/">
+						<Link className="no-underline" href="/" passHref>
 							<button
 								style={{
 									display: thirdButton ? 'block' : 'none',

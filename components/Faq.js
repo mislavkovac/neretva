@@ -13,9 +13,9 @@ import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantity
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import DescriptionIcon from '@mui/icons-material/Description';
 import Navbar from '../components/Navbar';
-import { Link } from '@mui/material';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 
 const faq = () => {
 	const [showSearch, setShowSearch] = useState(true);
@@ -86,7 +86,7 @@ const faq = () => {
 	return (
 		<div>
 			<div className="flex flex-row justify-center bg-[#314455] mb-[0.5rem] h-[5rem]">
-				<Link href="/">
+				<Link href="/" passHref>
 					<img
 						className="max-h-[50px] my-[1rem] px-[0.4rem] self-center"
 						src="/images/logo.png"
@@ -121,7 +121,7 @@ const faq = () => {
 					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
 					</Link>
-					<Link className="rounded-full flex" href="/cart">
+					<Link className="rounded-full flex" href="/cart" passHref>
 						<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 							<ShoppingBagIcon style={{ color: 'white' }} />
 						</button>

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Link } from '@mui/material';
+import Link from 'next/link';
 import React from 'react';
 
 const login = () => {
@@ -48,7 +48,7 @@ const login = () => {
 							/>
 						</label>
 						<div className="mt-[1em] flex text-center justify-around w-[100%]">
-							<Link href="/" className="no-underline flex">
+							<Link href="/" className="no-underline flex" passHref>
 								<div className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
 									Login
 								</div>
@@ -57,6 +57,7 @@ const login = () => {
 						<Link
 							href="/"
 							className="no-underline flex text-center justify-around"
+							passHref
 						>
 							<div className="bg-[#314455] w-[7em] py-[0.2em] my-3 text-base text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
 								Return home
@@ -66,7 +67,7 @@ const login = () => {
 							Don’t have account?
 						</div>
 						<div className="mt-[1em] flex text-center justify-around w-[100%]">
-							<Link href="/register" className="no-underline flex">
+							<Link href="/register" className="no-underline flex" passHref>
 								<div className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
 									Register
 								</div>

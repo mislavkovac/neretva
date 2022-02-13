@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
-import { Link } from '@mui/material';
 
 const Cartheader = () => {
 	return (
@@ -24,12 +24,12 @@ const Cartheader = () => {
 				</div>
 				<div>
 					<div className="mt-[1em] flex text-center justify-around w-[100%]">
-						<Link href="/register" className="no-underline flex">
+						<Link href="/register" className="no-underline flex" passHref>
 							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Register
 							</div>
 						</Link>
-						<Link href="/login" className="no-underline flex">
+						<Link href="/login" className="no-underline flex" passHref>
 							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Login
 							</div>
@@ -37,7 +37,7 @@ const Cartheader = () => {
 					</div>
 				</div>
 				<div>
-					<Link className="no-underline text-[#314455]" href="/">
+					<Link className="no-underline text-[#314455]" href="/" passHref>
 						<div className="underline text-center">Return home</div>
 					</Link>
 				</div>
