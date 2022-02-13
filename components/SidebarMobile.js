@@ -30,7 +30,7 @@ const SidebarMobile = ({ path }) => {
 			</div>
 			<div className="flex flex-col items-center">
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/TVs%20&%20Monitors`}
 					passHref
@@ -54,7 +54,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Mobile`}
 					passHref
@@ -78,7 +78,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Laptop`}
 					passHref
@@ -102,7 +102,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/PC`}
 					passHref
@@ -126,7 +126,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Video`}
 					passHref
@@ -150,7 +150,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Audio`}
 					passHref
@@ -180,7 +180,7 @@ const SidebarMobile = ({ path }) => {
 			</div>
 			<div className="flex flex-col items-center">
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Dishwasher`}
 					passHref
@@ -204,7 +204,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Washing%20machine`}
 					passHref
@@ -228,7 +228,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Refrigerator`}
 					passHref
@@ -252,7 +252,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Vacuums`}
 					passHref
@@ -276,7 +276,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
@@ -306,7 +306,7 @@ const SidebarMobile = ({ path }) => {
 			</div>
 			<div className="flex flex-col items-center">
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
@@ -330,7 +330,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
@@ -354,7 +354,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
@@ -378,7 +378,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
@@ -402,7 +402,7 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 				<Link
-					className="cursor-pointer"
+					className="cursor-pointer no-underline"
 					href={`/${path}/[id]`}
 					as={`/${path}/Irons`}
 					passHref
