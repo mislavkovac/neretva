@@ -19,7 +19,7 @@ const NavbarMobile = () => {
 				name="search"
 			/>
 			<div className="grid grid-rows-2 divide-y gap-[2rem]">
-				<div>
+				<div className="flex flex-col items-center">
 					<Link
 						href="/categories"
 						className="order-1 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
@@ -39,7 +39,6 @@ const NavbarMobile = () => {
 								fontWeight: '900',
 								margin: '2rem 0 0 0',
 								width: '150px',
-								textDecorationLine: 'none',
 							}}
 							label="Categories"
 						/>
@@ -61,7 +60,7 @@ const NavbarMobile = () => {
 								color: '#C96567',
 								background: '#FAFAFA',
 								fontWeight: '900',
-								margin: '2rem 0 0 0',
+								margin: '1rem 0 0 0',
 								width: '150px',
 							}}
 							label="Discounts"
@@ -84,7 +83,7 @@ const NavbarMobile = () => {
 								color: '#C96567',
 								background: '#FAFAFA',
 								fontWeight: '900',
-								margin: '2rem 0 0 0',
+								margin: '1rem 0 0 0',
 								width: '150px',
 							}}
 							label="Reviews"
@@ -107,7 +106,7 @@ const NavbarMobile = () => {
 								color: '#C96567',
 								background: '#FAFAFA',
 								fontWeight: '900',
-								margin: '2rem 0 0 0',
+								margin: '1rem 0 0 0',
 								width: '150px',
 							}}
 							label="FAQ"
@@ -128,7 +127,7 @@ const NavbarMobile = () => {
 								color: '#C96567',
 								background: '#FAFAFA',
 								fontWeight: '900',
-								margin: '2rem 0 0 0',
+								margin: '2.5rem 0 0 0',
 								width: '150px',
 							}}
 							label="Profile"
