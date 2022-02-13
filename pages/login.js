@@ -6,7 +6,7 @@ const login = () => {
 	return (
 		<div className="h-screen bg-[#314455] text-[#314455]">
 			<div className="bg-[#314455] text-[#314455] flex items-center justify-around content-center w-[100%] h-[100%]">
-				<div className="bg-[#E0E7E9] shadow-lg relative border-[#314455] flex-1 max-w-[500px] flex flex-col justify-center items-center">
+				<div className="bg-[#E0E7E9] shadow-lg relative border-[#314455] flex-1 max-w-[500px]">
 					<div className="text-center text-3xl sm:text-4xl mt-[3%] font-extrabold text-[#314455] underline decoration-[#C96567] break-words">
 						Please enter your information
 					</div>
@@ -32,7 +32,7 @@ const login = () => {
 					<div className="font-sans text-xl pt-3 mx-[1rem] sm:mx-[3rem] text-[#314455] font-normal">
 						Passphrase:
 					</div>
-					<div>
+					<div className="flex flex-col justify-center items-center">
 						<label className="relative block mx-[1rem] sm:mx-[3rem]">
 							<span className="absolute inset-y-0 left-0 flex items-center pl-2">
 								<svg
