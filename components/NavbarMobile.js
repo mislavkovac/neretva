@@ -1,4 +1,4 @@
-import { Divider, Link, Typography } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import styles from '../styles/Layout.module.css';
 import Chip from '@mui/material/Chip';
 import CategoryIcon from '@mui/icons-material/Category';
@@ -6,6 +6,7 @@ import StarsIcon from '@mui/icons-material/Stars';
 import ReviewsIcon from '@mui/icons-material/Reviews';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import PersonIcon from '@mui/icons-material/Person';
+import Link from 'next/link';
 
 const NavbarMobile = () => {
 	return (
@@ -21,6 +22,7 @@ const NavbarMobile = () => {
 					<Link
 						href="/categories"
 						className="order-1 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
+						passHref
 					>
 						<Chip
 							icon={
@@ -44,6 +46,7 @@ const NavbarMobile = () => {
 					<Link
 						href="/discounts"
 						className="order-2 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
+						passHref
 					>
 						<Chip
 							icon={
@@ -66,6 +69,7 @@ const NavbarMobile = () => {
 					<Link
 						href="/reviews"
 						className="order-3 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
+						passHref
 					>
 						<Chip
 							icon={
@@ -88,6 +92,7 @@ const NavbarMobile = () => {
 					<Link
 						href="/faq"
 						className="order-4 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
+						passHref
 					>
 						<Chip
 							icon={
