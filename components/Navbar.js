@@ -1,4 +1,5 @@
-import { Link, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
+import Link from 'next/link';
 import styles from '../styles/Layout.module.css';
 
 const Navbar = () => {
