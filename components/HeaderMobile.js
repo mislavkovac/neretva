@@ -78,11 +78,10 @@ export default function HeaderMobile() {
 					src="/images/logo.png"
 					alt="logo"
 				/> */}
-				<Link
-					href="/"
-					className="text-3xl break-all text-center no-underline font-bold text-[#fafafa]"
-				>
-					Neretva.com
+				<Link href="/" className="no-underline" passHref>
+					<div className="text-3xl break-all text-center font-bold no-underline text-[#fafafa]">
+						Neretva.com
+					</div>
 				</Link>
 				{/* <Fade in={!showOptions} timeout={700}>
 					<button
@@ -97,14 +96,12 @@ export default function HeaderMobile() {
 						/>
 					</button>
 				</Fade> */}
-				<Link
-					href="/cart"
-					className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
-					passHref
-				>
-					<ShoppingBagIcon
-						style={{ color: 'white', width: '2rem', height: '2rem' }}
-					/>
+				<Link href="/cart" passHref>
+					<div className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center">
+						<ShoppingBagIcon
+							style={{ color: 'white', width: '2rem', height: '2rem' }}
+						/>
+					</div>
 				</Link>
 				<Fade in={showOptions} timeout={700}>
 					<button className="bg-[#C96567] rounded-full absolute right-2 flex z-30 w-[2.5rem] h-[2.5rem] justify-center items-center">

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Slide from '@mui/material/Slide';
 import NavbarMobile from './NavbarMobile';
 import OptionsMobile from './OptionsMobile';
-import { Fade, Link } from '@mui/material';
+import { Fade } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
@@ -12,6 +12,7 @@ import Card from './Card';
 import SidebarMobile from './SidebarMobile';
 import SortMobile from './SortMobile';
 import FooterMobile from './FooterMobile';
+import Link from 'next/link';
 
 const DiscountMobile = () => {
 	const [showNavbar, setShowNavbar] = useState(false);
@@ -106,19 +107,17 @@ const DiscountMobile = () => {
 							/>
 						</button>
 					</Fade>
-					<Link
-						href="/"
-						className="text-3xl break-all text-center font-bold no-underline text-[#fafafa]"
-					>
-						Neretva.com
+					<Link href="/" className="no-underline" passHref>
+						<div className="text-3xl break-all text-center font-bold no-underline text-[#fafafa]">
+							Neretva.com
+						</div>
 					</Link>
-					<Link
-						href="/cart"
-						className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"
-					>
-						<ShoppingBagIcon
-							style={{ color: 'white', width: '2rem', height: '2rem' }}
-						/>
+					<Link href="/cart" passHref>
+						<div className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center">
+							<ShoppingBagIcon
+								style={{ color: 'white', width: '2rem', height: '2rem' }}
+							/>
+						</div>
 					</Link>
 					<Fade in={showOptions} timeout={700}>
 						<button className="bg-[#C96567] rounded-full absolute right-2 flex z-30 w-[2.5rem] h-[2.5rem] justify-center items-center">
