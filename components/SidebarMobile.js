@@ -28,9 +28,9 @@ const SidebarMobile = ({ path }) => {
 			<div className="font-sans text-3xl mt-[2rem] font-bold underline decoration-[#C96567]">
 				Electronics
 			</div>
-			<div className="flex flex-col items-center no-underline">
+			<div className="flex flex-col items-center">
 				<Link
-					className="cursor-pointer no-underline"
+					className="cursor-pointer"
 					href={`/${path}/[id]`}
 					as={`/${path}/TVs%20&%20Monitors`}
 					passHref
@@ -49,6 +49,7 @@ const SidebarMobile = ({ path }) => {
 							fontWeight: '900',
 							margin: '0.5rem 0 0 0',
 							width: '150px',
+							textDecorationLine: 'none',
 						}}
 						label="TVs & Monitors"
 					/>
