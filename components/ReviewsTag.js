@@ -49,7 +49,7 @@ export default function Productreview() {
 			<div className="flex flex-row justify-center bg-[#314455] mb-[0.5rem] h-[5rem]">
 				<Link href="/" passHref>
 					<img
-						className="max-h-[50px] my-[1rem] px-[0.4rem] self-center"
+						className="max-h-[50px] my-[1rem] px-[0.4rem] self-center cursor-pointer"
 						src="/images/logo.png"
 						alt="logo"
 					/>
@@ -79,11 +79,11 @@ export default function Productreview() {
 					>
 						<SearchIcon style={{ color: 'white' }} />
 					</button>
-					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
+					<button className="p-[0.2rem] my-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
-					</Link>
-					<Link className="rounded-full flex" href="/cart" passHref>
-						<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
+					</button>
+					<Link href="/cart" className="rounded-full flex" passHref>
+						<button className="p-[0.2rem] my-[0.2rem] rounded-full flex">
 							<ShoppingBagIcon style={{ color: 'white' }} />
 						</button>
 					</Link>

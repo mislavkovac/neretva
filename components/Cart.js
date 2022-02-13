@@ -8,7 +8,7 @@ const Cart = () => {
 	return (
 		<div className="flex justify-center rounded-full cursor-pointer place-self-end mr-[2em] my-auto items-center">
 			<Link className="no-underline" href="/cart" passHref>
-				<div className="h-[4.5em] w-[4.5em] bg-[#a3c6c4] flex justify-center rounded-full place-self-end mr-[2em] my-auto">
+				<div className="h-[4.5em] w-[4.5em] bg-[#a3c6c4] flex justify-center rounded-full place-self-end mr-[2em] my-auto cursor-pointer">
 					<img
 						src="/images/image2.png"
 						alt="Cart"

@@ -25,20 +25,26 @@ const Cartheader = () => {
 				<div>
 					<div className="mt-[1em] flex text-center justify-around w-[100%]">
 						<Link href="/register" className="no-underline flex" passHref>
-							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
+							<div className="cursor-pointer bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Register
 							</div>
 						</Link>
 						<Link href="/login" className="no-underline flex" passHref>
-							<div className="bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
+							<div className="cursor-pointer bg-[#314455] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567] text-2xl text-[#ffffff] w-[5em] py-[0.2em] mt-3">
 								Login
 							</div>
 						</Link>
 					</div>
 				</div>
 				<div>
-					<Link className="no-underline text-[#314455]" href="/" passHref>
-						<div className="underline text-center">Return home</div>
+					<Link
+						className="cursor-pointer no-underline text-[#314455]"
+						href="/"
+						passHref
+					>
+						<div className="cursor-pointer underline text-center">
+							Return home
+						</div>
 					</Link>
 				</div>
 			</div>

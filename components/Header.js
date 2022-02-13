@@ -18,7 +18,7 @@ export default function Header() {
 			<div className="flex flex-row justify-center">
 				<Link href="/" passHref>
 					<img
-						className="max-h-[50px] mt-[1rem] px-[0.4rem] self-center"
+						className="max-h-[50px] mt-[1rem] px-[0.4rem] self-center cursor-pointer"
 						src="/images/logo.png"
 						alt="logo"
 					/>
@@ -48,15 +48,13 @@ export default function Header() {
 					>
 						<SearchIcon style={{ color: 'white' }} />
 					</button>
-					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
+					<button className="p-[0.2rem] my-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white', cursor: 'pointer' }} />
-					</Link>
-					<Link
-						className="p-[0.2rem] m-[0.2rem] rounded-full flex"
-						href="/cart"
-						passHref
-					>
-						<ShoppingBagIcon style={{ color: 'white', cursor: 'pointer' }} />
+					</button>
+					<Link href="/cart" passHref>
+						<div className="p-[0.2rem] my-[0.2rem] rounded-full flex">
+							<ShoppingBagIcon style={{ color: 'white', cursor: 'pointer' }} />
+						</div>
 					</Link>
 				</div>
 			</div>

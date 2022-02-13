@@ -108,7 +108,7 @@ const NavbarMobile = () => {
 					</Link>
 				</div>
 				<div>
-					<Link className="order-4 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]">
+					<button className="order-4 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]">
 						<Chip
 							icon={
 								<PersonIcon
@@ -126,7 +126,7 @@ const NavbarMobile = () => {
 							}}
 							label="Profile"
 						/>
-					</Link>
+					</button>
 				</div>
 			</div>
 		</div>

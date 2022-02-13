@@ -650,7 +650,7 @@ export default function Toggle() {
 						className="no-underline text-[#314455]"
 						passHref
 					>
-						<div className="bg-[#C96567] shadow-lg rounded-md flex-1 my-[0.6em] py-[0.2em] hover:text-[#C96567] hover:bg-[#314455] border-[0.5px] border-[#314455] text-center text-2xl text-[#ffffff]">
+						<div className="cursor-pointer bg-[#C96567] shadow-lg rounded-md flex-1 my-[0.6em] py-[0.2em] hover:text-[#C96567] hover:bg-[#314455] border-[0.5px] border-[#314455] text-center text-2xl text-[#ffffff]">
 							Safe payment information
 						</div>
 					</Link>
