@@ -174,7 +174,10 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 			</div>
-			<Divider className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]" />
+			<Divider
+				style={{ margin: '1rem 0 1rem 0' }}
+				className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]"
+			/>
 			<div className="font-sans text-3xl font-bold underline decoration-[#C96567]">
 				Home
 			</div>
@@ -300,7 +303,10 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 			</div>
-			<Divider className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]" />
+			<Divider
+				style={{ margin: '1rem 0 1rem 0' }}
+				className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]"
+			/>
 			<div className="font-sans text-3xl font-bold underline decoration-[#C96567]">
 				Smart Home
 			</div>
@@ -426,7 +432,10 @@ const SidebarMobile = ({ path }) => {
 					/>
 				</Link>
 			</div>
-			<Divider className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]" />
+			<Divider
+				style={{ margin: '1rem 0 1rem 0' }}
+				className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]"
+			/>
 			<Chip
 				icon={
 					<PeopleAltIcon
@@ -444,7 +453,10 @@ const SidebarMobile = ({ path }) => {
 				}}
 				label="Tebi ko Tebi"
 			/>
-			<Divider className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]" />
+			<Divider
+				style={{ margin: '1rem 0 1rem 0' }}
+				className="w-[60%] bg-[#FFFFFF] h-[1px] rounded-full my-[1rem]"
+			/>
 			<Chip
 				icon={
 					<LocalShippingIcon
