@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Divider, Fade, Link, Slide } from '@mui/material';
+import { Divider, Fade, Slide } from '@mui/material';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import React from 'react';
@@ -18,6 +18,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import OptionsMobile from './OptionsMobile';
 import NavbarMobile from './NavbarMobile';
 import FooterMobile from './FooterMobile';
+import Link from 'next/link';
 
 const Index = () => {
 	const router = useRouter();
@@ -176,7 +177,7 @@ const Index = () => {
 							Neretva.com
 						</div>
 					</Link>
-					<Link href="/cart">
+					<Link href="/cart" passHref>
 						<div className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center">
 							<ShoppingBagIcon
 								style={{ color: 'white', width: '2rem', height: '2rem' }}
