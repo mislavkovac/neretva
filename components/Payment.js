@@ -48,7 +48,8 @@ const payment = () => {
 							<ul className="list-disc pl-8">
 								<li>The date the item or service was provided;</li>
 								<li>
-									The recipient’s address (email/IP, etc.) - where applicable.
+									The recipient&apos;s address (email/IP, etc.) - where
+									applicable.
 								</li>
 							</ul>
 						</p>
@@ -128,35 +129,36 @@ const payment = () => {
 							Buyer Protection
 						</div>
 						<p className="mx-10">
-							If an eligible item that you’ve bought online doesn’t arrive, or
-							doesn’t match the seller’s description, PayPal's Buyer Protection
-							may reimburse you for the full amount of the item plus postage.
-							Buyer Protection may cover your eligible online purchases, on eBay
-							or on any other website, when you use PayPal. It also covers you
-							when you make a payment on PayPal's website. Conditions apply.
+							If an eligible item that you&apos;ve bought online doesn&apos;t
+							arrive, or doesn&apos;t match the seller&apos;s description,
+							PayPal&apos;s Buyer Protection may reimburse you for the full
+							amount of the item plus postage. Buyer Protection may cover your
+							eligible online purchases, on eBay or on any other website, when
+							you use PayPal. It also covers you when you make a payment on
+							PayPal&apos;s website. Conditions apply.
 						</p>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
-							What's Covered?
+							What&apos;s Covered?
 						</div>
 						<p className="mx-10">
 							Purchase of most goods that can be posted and which do not violate
 							PayPal policies. Here are a few examples of situations where an
-							item doesn’t match the seller’s description: You bought a book and
-							got a DVD, you bought a new item but got something that was used,
-							you bought 3 items but only got 2, the item was damaged during
-							delivery, the item is missing major parts (that the seller didn’t
-							disclose), or you purchased an authentic brand but got a fake
-							instead.
+							item doesn&apos;t match the seller&apos;s description: You bought
+							a book and got a DVD, you bought a new item but got something that
+							was used, you bought 3 items but only got 2, the item was damaged
+							during delivery, the item is missing major parts (that the seller
+							didn&apos;t disclose), or you purchased an authentic brand but got
+							a fake instead.
 						</p>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">
-							What's not Covered?
+							What&apos;s not Covered?
 						</div>
 						<p className="mx-10">
 							Items like real estate, motorized vehicles (of any kind), custom
 							made items, industrial machinery (for manufacturing), prepaid or
 							gift cards, anything you buy in person, or items that violate
-							PayPal's policies. You must open a dispute within 180 days or you
-							will not be covered.
+							PayPal&apos;s policies. You must open a dispute within 180 days or
+							you will not be covered.
 						</p>
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">Our tips</div>
 						<p className="mx-10">
@@ -183,10 +185,10 @@ const payment = () => {
 						<div className="mt-10 mx-10 mb-1 text-left text-xl">Refunds</div>
 						<p className="mx-10">
 							<p className="mx-10">
-								If an item doesn’t arrive or doesn't match the description, and
-								your payment is eligible, we’ll reimburse the full cost of
-								eligible purchases paid, including shipping costs. Limitations
-								apply.
+								If an item doesn&apos;t arrive or doesn&apos;t match the
+								description, and your payment is eligible, we&apos;ll reimburse
+								the full cost of eligible purchases paid, including shipping
+								costs. Limitations apply.
 							</p>
 						</p>
 					</div>
