@@ -5,7 +5,7 @@ import { Link } from '@mui/material';
 const Cartheader = () => {
 	return (
 		<div className="flex flex-row justify-center break-words content-center">
-			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] max-w-[500px] flex-[1_1_100%] border-[0.5px] border-[#354649]">
+			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] mr-[0.5em] max-w-[500px] flex-[1_1_100%] border-[0.5px] border-[#314455]">
 				<div className="ml-[1em]">
 					<div className="font-sans text-4xl font-bold text-[#314455] underline decoration-[#C96567]">
 						Neretva.com
@@ -18,7 +18,7 @@ const Cartheader = () => {
 					</div>
 				</div>
 			</div>
-			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] ml-[0.5em] max-w-[450px] flex-[1_1_100%] border-[0.5px] border-[#354649]">
+			<div className="bg-[#E0E7E9] shadow-lg mb-[0.5em] ml-[0.5em] max-w-[450px] flex-[1_1_100%] border-[0.5px] border-[#314455]">
 				<div className="font-sans text-xl font-normal mt-[1em] ml-[1em]">
 					You can login or register here:
 				</div>
@@ -37,7 +37,7 @@ const Cartheader = () => {
 					</div>
 				</div>
 				<div>
-					<Link className="no-underline text-[#354649]" href="/">
+					<Link className="no-underline text-[#314455]" href="/">
 						<div className="underline text-center">Return home</div>
 					</Link>
 				</div>

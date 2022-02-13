@@ -171,9 +171,12 @@ const Index = () => {
 							/>
 						</button>
 					</Fade>
-					<div className="text-3xl break-all text-center font-bold text-[#fafafa]">
+					<Link
+						href="/"
+						className="text-3xl break-all text-center no-underline font-bold text-[#fafafa]"
+					>
 						Neretva.com
-					</div>
+					</Link>
 					<Link
 						href="/cart"
 						className="bg-[#C96567] rounded-full z-10 flex w-[2.5rem] h-[2.5rem] justify-center items-center"

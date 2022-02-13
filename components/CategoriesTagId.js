@@ -139,9 +139,9 @@ const Index = () => {
 					>
 						<SearchIcon style={{ color: 'white' }} />
 					</button>
-					<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
+					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
-					</button>
+					</Link>
 					<Link className="rounded-full flex" href="/cart">
 						<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 							<ShoppingBagIcon style={{ color: 'white' }} />

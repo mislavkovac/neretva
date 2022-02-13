@@ -26,10 +26,10 @@ const OfferMobile = ({ id, image, price, prevPrice, name, desc, tag }) => {
 				/>
 			</div>
 			<div className="flex flex-col justify-center">
-				<div className="text-center font-sans text-2xl font-normal text-[#314455]">
+				<div className="text-center font-sans text-2xl font-bold text-[#314455]">
 					{name}
 				</div>
-				<div className="text-center font-sans text-md font-normal text-[#314455]">
+				<div className="text-center font-sans text-md font-bold text-[#C96567]">
 					{desc}
 				</div>
 				<div className="">

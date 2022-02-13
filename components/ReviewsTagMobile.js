@@ -1,22 +1,32 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import Router, { useRouter } from 'next/router';
 import { useState } from 'react';
-import Slide from '@mui/material/Slide';
-import NavbarMobile from './NavbarMobile';
-import OptionsMobile from './OptionsMobile';
-import { Fade, Link } from '@mui/material';
+import FooterMobile from './FooterMobile';
+import Navbar from './Navbar';
+import Search from './Search';
+import { Fade, Link, Slide } from '@mui/material';
+import Cart from './Cart';
+import data from '../public/data.json';
+import ReviewCard from './ReviewCard';
+import Sidebar from './Sidebar';
+import PersonIcon from '@mui/icons-material/Person';
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import data from '../public/data.json';
-import Card from './Card';
-import SidebarMobile from './SidebarMobile';
+import NavbarMobile from './NavbarMobile';
+import OptionsMobile from './OptionsMobile';
 import SortMobile from './SortMobile';
-import FooterMobile from './FooterMobile';
+import SidebarMobile from './SidebarMobile';
 
-const DiscountMobile = () => {
-	const [showNavbar, setShowNavbar] = useState(false);
-	function navbar() {
-		setShowNavbar(!showNavbar);
+export default function Productreview() {
+	const router = useRouter();
+	const { tag } = router.query;
+
+	const [showSearch, setShowSearch] = useState(true);
+	function searchShow() {
+		setShowSearch(!showSearch);
 	}
 	const [showOptions, setShowOptions] = useState(false);
 	function options() {
@@ -29,6 +39,10 @@ const DiscountMobile = () => {
 			setShowSort(!showSort);
 		}
 	}
+	const [showNavbar, setShowNavbar] = useState(false);
+	function navbar() {
+		setShowNavbar(!showNavbar);
+	}
 	const [showSort, setShowSort] = useState(false);
 	function sort() {
 		setShowSort(!showSort);
@@ -39,22 +53,27 @@ const DiscountMobile = () => {
 
 	let cards = [];
 	for (const item of data) {
-		if (item.prevPrice !== '')
-			cards.push(
-				<Card
-					id={item.id}
-					image={item.image}
-					prevPrice={item.prevPrice}
-					price={item.price}
-					name={item.name}
-					desc={item.desc}
-					tag={item.tag}
-					path={'categories'}
-				/>
-			);
+		for (const review of item.review) {
+			if (item.tag === tag)
+				cards.push(
+					<ReviewCard
+						id={item.id}
+						image={item.image}
+						price={item.price}
+						prevPrice={item.prevPrice}
+						name={item.name}
+						desc={item.desc}
+						tag={item.tag}
+						path={'categories'}
+						rating={item.rating}
+						review={review}
+					/>
+				);
+		}
 	}
+
 	return (
-		<div className="">
+		<div>
 			<div className="flex flex-col h-[3.5rem] pb-[1rem] mb-[0.5rem] bg-gradient-to-b from-[#314455] to-[#97aabd]">
 				<Slide direction="top" timeout={700} in={showNavbar}>
 					<div
@@ -142,7 +161,7 @@ const DiscountMobile = () => {
 					}}
 				></div>
 			</div>
-			<div className="flex flex-col">
+			<div className="flex">
 				<Fade in={!showCategories} timeout={700}>
 					<button
 						style={{ display: showSort ? 'none' : 'block' }}
@@ -157,7 +176,7 @@ const DiscountMobile = () => {
 						style={{ display: showSort ? 'none' : 'block' }}
 						className="w-full absolute py-[0.2em] text-xl text-[#ffffff] z-30 shadow-lg top-0 bg-gradient-to-b from-[#314455] to-[#97aabd]"
 					>
-						<SidebarMobile path={'discounts'} />
+						<SidebarMobile path={'reviews'} />
 					</div>
 				</Fade>
 				<Fade in={showCategories} timeout={700}>
@@ -191,12 +210,9 @@ const DiscountMobile = () => {
 						/>
 					</button>
 				</Fade>
-				<div
-					className="flex flex-col w-[100%]"
-					style={{ display: showSort || showCategories ? 'none' : 'block' }}
-				>
+				<div className="flex flex-col w-[100%] items-center">
 					<div className="mt-[0.5em] text-center font-sans text-5xl font-extrabold text-[#314455] underline decoration-[#C96567]">
-						Discounts
+						{tag} Reviews
 					</div>
 					<div className="mt-[2em] justify-center align-middle flex flex-row flex-wrap">
 						{cards}
@@ -208,6 +224,4 @@ const DiscountMobile = () => {
 			</div>
 		</div>
 	);
-};
-
-export default DiscountMobile;
+}

@@ -37,7 +37,7 @@ const Offer = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						<div className="text-center font-sans text-md font-normal line-through text-[#000000] mb-2">
 							{prevPrice}
 						</div>
-						<div className="text-center font-sans text-lg font-normal mb-2 text-[#C96567]">
+						<div className="text-center font-sans text-lg font-bold mb-2 text-[#C96567]">
 							{price}
 						</div>
 					</div>

@@ -48,9 +48,9 @@ export default function Header() {
 					>
 						<SearchIcon style={{ color: 'white' }} />
 					</button>
-					<button className="p-[0.2rem] m-[0.2rem] rounded-full flex">
+					<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex">
 						<PersonIcon style={{ color: 'white' }} />
-					</button>
+					</Link>
 					<Link
 						className="p-[0.2rem] m-[0.2rem] rounded-full flex"
 						href="/cart"
@@ -63,7 +63,7 @@ export default function Header() {
 				<div className="text-[#FFFFFF] text-5xl font-extrabold text-right flex flex-col items-end">
 					{/* <div className="underline decoration-[#314455]">Neretva.com</div> */}
 					<div className="text-5xl pt-[0.5rem] pr-[1rem] underline decoration-[#C96567]">
-						You'r best online shopping buddy!
+						Your best online shopping buddy!
 					</div>
 					<div className="flex flex-row mt-[4rem] max-w-[45rem] justify-around items-end">
 						<div className="flex flex-col text-center items-center text-3xl flex-1">

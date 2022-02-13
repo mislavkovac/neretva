@@ -108,10 +108,7 @@ const NavbarMobile = () => {
 					</Link>
 				</div>
 				<div>
-					<Link
-						href="/faq"
-						className="order-4 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]"
-					>
+					<Link className="order-4 no-underline text-[#ffffff] px-[1.5rem] flex text-center justify-center items-center h-[3rem]">
 						<Chip
 							icon={
 								<PersonIcon

@@ -78,9 +78,12 @@ export default function HeaderMobile() {
 					src="/images/logo.png"
 					alt="logo"
 				/> */}
-				<div className="text-3xl break-all text-center font-bold text-[#fafafa]">
+				<Link
+					href="/"
+					className="text-3xl break-all text-center no-underline font-bold text-[#fafafa]"
+				>
 					Neretva.com
-				</div>
+				</Link>
 				{/* <Fade in={!showOptions} timeout={700}>
 					<button
 						style={{
@@ -113,7 +116,7 @@ export default function HeaderMobile() {
 			</div>
 			<Slide direction="right" timeout={700} in={true}>
 				<div className="text-2xl text-center font-bold mt-[1rem] text-[#fafafa]">
-					You'r best online shopping buddy!
+					Your best online shopping buddy!
 				</div>
 			</Slide>
 			<div

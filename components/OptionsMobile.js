@@ -7,9 +7,9 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 const Options = () => {
 	return (
 		<div className="flex flex-col items-center pt-[5rem]">
-			<button className="p-[0.2rem] m-[0.2rem] rounded-full flex items-center justify-center">
+			<Link className="p-[0.2rem] m-[0.2rem] rounded-full flex items-center justify-center">
 				<PersonIcon className="h-[50px] w-[50px]" style={{ color: 'white' }} />
-			</button>
+			</Link>
 			<button className="p-[0.2rem] m-[0.2rem] rounded-full flex items-center justify-center">
 				<ShoppingBagIcon
 					className="h-[50px] w-[50px]"
