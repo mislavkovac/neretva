@@ -134,7 +134,7 @@ const Sidebar = ({ path }) => {
 						<Link
 							className="cursor-pointer"
 							href={`/${path}/[id]`}
-							as={`/${path}/Irons`}
+							as={`/${path}/Sensors`}
 							passHref
 						>
 							<li className="pl-[2em] cursor-pointer transition duration-300 hover:bg-[#C96567] hover:text-[#314455] font-sans text-xs md:text-lg font-normal">
@@ -144,7 +144,7 @@ const Sidebar = ({ path }) => {
 						<Link
 							className="cursor-pointer"
 							href={`/${path}/[id]`}
-							as={`/${path}/Irons`}
+							as={`/${path}/Sockets`}
 							passHref
 						>
 							<li className="pl-[2em] cursor-pointer transition duration-300 hover:bg-[#C96567] hover:text-[#314455] font-sans text-xs md:text-lg font-normal">
@@ -154,7 +154,7 @@ const Sidebar = ({ path }) => {
 						<Link
 							className="cursor-pointer"
 							href={`/${path}/[id]`}
-							as={`/${path}/Irons`}
+							as={`/${path}/Light%20bulbs`}
 							passHref
 						>
 							<li className="pl-[2em] cursor-pointer transition duration-300 hover:bg-[#C96567] hover:text-[#314455] font-sans text-xs md:text-lg font-normal">
@@ -164,7 +164,7 @@ const Sidebar = ({ path }) => {
 						<Link
 							className="cursor-pointer"
 							href={`/${path}/[id]`}
-							as={`/${path}/Irons`}
+							as={`/${path}/Switches`}
 							passHref
 						>
 							<li className="pl-[2em] cursor-pointer transition duration-300 hover:bg-[#C96567] hover:text-[#314455] font-sans text-xs md:text-lg font-normal">
@@ -174,7 +174,7 @@ const Sidebar = ({ path }) => {
 						<Link
 							className="cursor-pointer"
 							href={`/${path}/[id]`}
-							as={`/${path}/Irons`}
+							as={`/${path}/Miscellaneous`}
 							passHref
 						>
 							<li className="pl-[2em] cursor-pointer transition duration-300 hover:bg-[#C96567] hover:text-[#314455] font-sans text-xs md:text-lg font-normal">

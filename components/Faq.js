@@ -144,10 +144,12 @@ const faq = () => {
 						onClick={accountFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<ManageAccountsIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<ManageAccountsIcon
+								style={{ color: '#C96567' }}
+								className="w-[8rem] h-[8rem]"
+							/>
+						</div>
 						<div
 							style={{
 								color: account ? '#314455' : '#ffffff',
