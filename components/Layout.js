@@ -2,7 +2,6 @@ import stylesLayout from '../styles/Layout.module.css';
 import Search from './Search';
 import Navbar from './Navbar';
 import Home from './Home';
-import Homepage from './Homepage';
 import Other from './Other';
 import Footer from './Footer';
 import Header from './Header';

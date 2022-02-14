@@ -147,7 +147,7 @@ const faq = () => {
 						<div className="w-[6rem] h-[6rem]">
 							<ManageAccountsIcon
 								style={{ color: '#C96567' }}
-								className="w-[8rem] h-[8rem]"
+								className="w-[100%] h-[100%]"
 							/>
 						</div>
 						<div
@@ -166,10 +166,12 @@ const faq = () => {
 						onClick={paymentFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<PaymentsIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<PaymentsIcon
+								style={{ color: '#C96567' }}
+								className="w-[100%] h-[100%]"
+							/>
+						</div>
 						<div
 							style={{
 								color: payment ? '#314455' : '#ffffff',
@@ -186,10 +188,12 @@ const faq = () => {
 						onClick={deliveryFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<LocalShippingIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<LocalShippingIcon
+								style={{ color: '#C96567' }}
+								className="w-[100%] h-[100%]"
+							/>
+						</div>
 						<div
 							style={{
 								color: delivery ? '#314455' : '#ffffff',
@@ -206,10 +210,12 @@ const faq = () => {
 						onClick={productFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<ProductionQuantityLimitsIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<ProductionQuantityLimitsIcon
+								style={{ color: '#C96567' }}
+								className="w-[100%] h-[100%]"
+							/>
+						</div>
 						<div
 							style={{
 								color: product ? '#314455' : '#ffffff',
@@ -226,10 +232,12 @@ const faq = () => {
 						onClick={refundFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<AutorenewIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<AutorenewIcon
+								style={{ color: '#C96567' }}
+								className="w-[100%] h-[100%]"
+							/>
+						</div>
 						<div
 							style={{
 								color: refund ? '#314455' : '#ffffff',
@@ -246,10 +254,12 @@ const faq = () => {
 						onClick={assuranceFaq}
 						className="cursor-pointer m-2 w-[13rem] items-center justify-center flex flex-col content-between rounded overflow-hidden shadow-xl bg-[#ffffff] border-b-[2px] border-[#C96567] transition duration-500 ease-in-out hover:scale-105"
 					>
-						<DescriptionIcon
-							style={{ color: '#C96567' }}
-							className="w-[8rem] h-[8rem]"
-						/>
+						<div className="w-[6rem] h-[6rem]">
+							<DescriptionIcon
+								style={{ color: '#C96567' }}
+								className="w-[100%] h-[100%]"
+							/>
+						</div>
 						<div
 							style={{
 								color: assurance ? '#314455' : '#ffffff',
