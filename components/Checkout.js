@@ -5,7 +5,7 @@ import Toggle from './Toggle';
 /* eslint-disable @next/next/no-img-element */
 export default function cart() {
 	return (
-		<div className="h-screen bg-[#314455] text-[#314455] flex justify-center items-center">
+		<div className="bg-[#314455] text-[#314455] pt-[2rem] flex justify-center items-center">
 			<div
 				style={{
 					maxWidth: '980px',
