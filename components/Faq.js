@@ -146,8 +146,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<ManageAccountsIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
@@ -168,8 +167,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<PaymentsIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
@@ -190,8 +188,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<LocalShippingIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
@@ -212,8 +209,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<ProductionQuantityLimitsIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
@@ -234,8 +230,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<AutorenewIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
@@ -256,8 +251,7 @@ const faq = () => {
 					>
 						<div className="w-[6rem] h-[6rem]">
 							<DescriptionIcon
-								style={{ color: '#C96567' }}
-								className="w-[100%] h-[100%]"
+								style={{ color: '#C96567', width: '100%', height: '100%' }}
 							/>
 						</div>
 						<div
