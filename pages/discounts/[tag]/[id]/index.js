@@ -2,7 +2,6 @@
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import React from 'react';
-import Cart from '../../../../components/Cart';
 import Search from '../../../../components/Search';
 import Navbar from '../../../../components/Navbar';
 import Footer from '../../../../components/Footer';

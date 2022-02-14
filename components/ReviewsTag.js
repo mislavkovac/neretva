@@ -5,7 +5,6 @@ import { useState } from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Search from './Search';
-import Cart from './Cart';
 import data from '../public/data.json';
 import ReviewCard from './ReviewCard';
 import Sidebar from './Sidebar';

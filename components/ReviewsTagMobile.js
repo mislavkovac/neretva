@@ -6,7 +6,6 @@ import FooterMobile from './FooterMobile';
 import Navbar from './Navbar';
 import Search from './Search';
 import { Fade, Slide } from '@mui/material';
-import Cart from './Cart';
 import data from '../public/data.json';
 import ReviewCard from './ReviewCard';
 import Sidebar from './Sidebar';
