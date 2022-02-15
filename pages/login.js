@@ -32,8 +32,8 @@ const login = () => {
 					<div className="font-sans text-xl pt-3 mx-[1rem] sm:mx-[3rem] text-[#314455] font-normal">
 						Passphrase:
 					</div>
-					<div className="flex flex-col justify-center items-center">
-						<label className="relative block mx-[1rem] sm:mx-[3rem]">
+					<div className="flex flex-col justify-center items-center mx-[1rem]">
+						<label className="relative block sm:mx-[3rem] w-[100%]">
 							<span className="absolute inset-y-0 left-0 flex items-center pl-2">
 								<svg
 									className="h-5 w-5 fill-gray-300"
