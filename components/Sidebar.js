@@ -280,6 +280,87 @@ const Sidebar = ({ path }) => {
 							Samsung
 						</label>
 					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#FFFFFF] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Lenovo
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							LG
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#FFFFFF] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Bose
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Audio-Technica
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#FFFFFF] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Bosch
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Whirpool
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							Hisense
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							DeltaCo
+						</label>
+					</div>
+					<div className="form-check ml-[1em] text-[#FFFFFF]">
+						<input
+							className="form-check-input appearance-none h-[1.2em] w-[1.2em] border border-gray-300 rounded-sm bg-[#FFFFFF] checked:bg-[#C96567] checked:border-[#E0E7E9] transition duration-200 mt-1 align-center float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/>
+						<label className="form-check-label inline-block font-sans text-xs md:text-lg font-normal">
+							NanoLeaf
+						</label>
+					</div>
 				</div>
 			</div>
 		</div>
