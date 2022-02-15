@@ -32,21 +32,18 @@ const login = () => {
 					<div className="font-sans text-xl pt-3 mx-[1rem] sm:mx-[3rem] text-[#314455] font-normal">
 						Passphrase:
 					</div>
+					<label className="relative block mx-[1rem] sm:mx-[3rem]">
+						<span className="absolute inset-y-0 left-0 flex items-center pl-2">
+							<svg className="h-5 w-5 fill-gray-300" viewBox="0 0 20 20"></svg>
+						</span>
+						<input
+							className="placeholder:text-[#6C7A89] placeholder:text-lg rounded-md text-xl block bg-white w-full border border-gray-300 py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
+							placeholder="Enter passphrase"
+							type="text"
+							name="search"
+						/>
+					</label>
 					<div className="flex flex-col justify-center items-center mx-[1rem]">
-						<label className="relative block sm:mx-[3rem] w-[100%]">
-							<span className="absolute inset-y-0 left-0 flex items-center pl-2">
-								<svg
-									className="h-5 w-5 fill-gray-300"
-									viewBox="0 0 20 20"
-								></svg>
-							</span>
-							<input
-								className="placeholder:text-[#6C7A89] placeholder:text-lg rounded-md text-xl block bg-white w-full border border-gray-300 py-2 pr-3 shadow-sm focus:outline-none focus:border-[#6C7A89] focus:ring-[#6C7A89] focus:ring-1"
-								placeholder="Enter passphrase"
-								type="text"
-								name="search"
-							/>
-						</label>
 						<div className="mt-[1em] flex text-center justify-around w-[100%]">
 							<Link href="/" className="no-underline flex" passHref>
 								<div className="bg-[#314455] w-[5em] py-[0.2em] my-3 text-xl text-[#ffffff] shadow-lg rounded-md hover:text-[#314455] hover:bg-[#C96567]">
