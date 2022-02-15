@@ -45,7 +45,7 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						color: '#FAFAFA',
 						background: '#644e5b',
 						fontWeight: '900',
-						width: '5rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 				/>
@@ -62,7 +62,7 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						color: '#FAFAFA',
 						background: '#9e5a63',
 						fontWeight: '900',
-						width: '4rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 					label="10"
@@ -80,7 +80,7 @@ const NewProduct = ({ id, image, price, prevPrice, name, desc, tag }) => {
 						color: '#FAFAFA',
 						background: '#97aabd',
 						fontWeight: '900',
-						width: '8rem',
+						width: 'fit-content',
 						margin: '0.3rem 0.3rem',
 					}}
 					label="Limited QTY"
