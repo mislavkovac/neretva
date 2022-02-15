@@ -196,7 +196,7 @@ export default function Productreview() {
 					</button>
 				</Fade>
 				<Fade in={showSort} timeout={700}>
-					<div className="w-full absolute py-[0.2em] h-[100vh] text-xl text-[#ffffff] z-30 shadow-lg top-0 bg-gradient-to-b from-[#314455] to-[#97aabd]">
+					<div className="w-full absolute py-[0.2em] text-xl text-[#ffffff] z-30 shadow-lg top-0 bg-gradient-to-b from-[#314455] to-[#97aabd]">
 						<SortMobile />
 					</div>
 				</Fade>
